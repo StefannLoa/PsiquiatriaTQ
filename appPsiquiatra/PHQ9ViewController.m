@@ -9,12 +9,13 @@
 #import "PHQ9ViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
+#define photo_tag 1
+
 @interface PHQ9ViewController ()
 
 @end
 
 @implementation PHQ9ViewController
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,15 +26,15 @@
     
     _respuestas = [[NSArray alloc] init];
     
-    _phq9 = @[@"Poco interés o agrado al hacer cosas.",
-              @"Se ha sentido triste, deprimido(a) o sin esperanzas.",
-              @"Ha tenido dormir, mantenerse despierto, o desesperado.",
-              @"Se ha sentido cansado(a) o con poca energía.",
-              @"Sin apetito o ha comido en exceso.",
-              @"Se ha sentido mal con usted mismo(a) – o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia.",
-              @"Ha tenido dificultad para concentrarse en ciertas actividades, tales como leer el periódico o ver la televisión",
+    _phq9 = @[@"¿Poco interés o agrado al hacer cosas?",
+              @"¿Se ha sentido triste, deprimido(a) o sin esperanzas?",
+              @"¿Ha tenido dormir, mantenerse despierto, o desesperado?",
+              @"¿Se ha sentido cansado(a) o con poca energía?",
+              @"¿Sin apetito o ha comido en exceso?",
+              @"¿Se ha sentido mal con usted mismo(a) – o que es un fracaso o que ha quedado mal con usted mismo(a) o con su familia?",
+              @"¿Ha tenido dificultad para concentrarse en ciertas actividades, tales como leer el periódico o ver la televisión?",
               @"¿Se ha movido o hablado tan lento que otras personas podrían haberlo notado? o lo contrario – muy inquieto(a) o agitado(a) que ha estado moviéndose mucho más de lo normal",
-              @"Pensamientos de que estaría mejor muerto(a) o de lastimarse de alguna manera"];
+              @"¿Pensamientos de que estaría mejor muerto(a) o de lastimarse de alguna manera?"];
     
 }
 
@@ -44,31 +45,35 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSString *CellIdentifier = @"quiz";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"quiz" forIndexPath:indexPath];
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    // Create the cell if it could not be dequeued
-    if (cell == nil){
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
+    //Añadimos las preguntas la label, en cada celda.
+    UILabel *preguntas = (UILabel *)[cell viewWithTag:2];
+    preguntas.text = [_phq9 objectAtIndex:indexPath.row];
     
-    UIButton *newButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    newButton.frame = CGRectMake(220.0f, 5.0f, 75.0f, 30.0f);
-    [newButton setTitle:@"hola" forState:UIControlStateNormal];
-    newButton.tag = 50;
-    [cell addSubview:newButton];
+    /*
+    UIImageView *photo = [[UIImageView alloc] initWithFrame:CGRectMake(19, 17, 20, 20)];
+    photo.tag = photo_tag;
+    photo.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleHeight;
+    [cell.contentView addSubview:photo];
+    */
+    
+    //UIImageView *photo = (UIImageView *)[cell.contentView viewWithTag:photo_tag];
 
-    // add friend button
-    UIButton *addFriendButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    addFriendButton.frame = CGRectMake(110.0f, 5.0f, 75.0f, 30.0f);
-    [addFriendButton setTitle:@"Add" forState:UIControlStateNormal];
-    addFriendButton.tag = indexPath.row;
-    [cell addSubview:addFriendButton];
-    [addFriendButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
-    
-    [addFriendButton addTarget:self action:@selector(selectButtonResultPHQ:) forControlEvents:UIControlEventTouchUpInside];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    //Añadimos la imagen correspondiente.
+    UIImageView *photo = (UIImageView *)[cell.contentView viewWithTag:photo_tag];
+    
+    photo.image = [UIImage imageNamed:@"x.png"];
+    NSLog(@"%@", photo.image.description);
+    //photo.image = @"1.png";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
