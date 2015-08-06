@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230B41121AA4AA77007EFDD4 /* Quotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 230B41111AA4AA77007EFDD4 /* Quotes.m */; };
+		231F4BD01A76C15F0020F830 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 231F4BCF1A76C15F0020F830 /* Images */; };
+		236216C61B449E3A002DAEB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236216C51B449E3A002DAEB9 /* Images.xcassets */; };
+		237E83EB1AAF35ED0072E846 /* Log_InViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237E83EA1AAF35ED0072E846 /* Log_InViewController.m */; };
+		2396D4751A9B6830005270D5 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2396D4741A9B6830005270D5 /* AlertViewController.m */; };
+		2396D4781A9B7557005270D5 /* MesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2396D4771A9B7557005270D5 /* MesViewController.m */; };
+		2396D47B1A9B8004005270D5 /* CitasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2396D47A1A9B8004005270D5 /* CitasViewController.m */; };
+		23A83E7E1A72B1C700C612ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A83E7D1A72B1C700C612ED /* main.m */; };
+		23A83E811A72B1C700C612ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A83E801A72B1C700C612ED /* AppDelegate.m */; };
+		23A83E8A1A72B1C700C612ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A83E881A72B1C700C612ED /* Main.storyboard */; };
+		23AE8DA61A815E78009441C8 /* DiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE8DA51A815E78009441C8 /* DiaViewController.m */; };
+		23C3AA151A8403CE00FE4988 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C3AA141A8403CE00FE4988 /* ProfileViewController.m */; };
+		23CA653A1AB9D0BA00B903E7 /* MontgomeryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA65391AB9D0BA00B903E7 /* MontgomeryViewController.m */; };
+		23E81ADB1B61221E008A99F4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AD91B61221E008A99F4 /* Bolts.framework */; };
+		23E81ADC1B61221E008A99F4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81ADA1B61221E008A99F4 /* Parse.framework */; };
+		23E81AE61B6124CE008A99F4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81ADD1B6124CE008A99F4 /* Accounts.framework */; };
+		23E81AE71B6124CE008A99F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81ADE1B6124CE008A99F4 /* CFNetwork.framework */; };
+		23E81AE81B6124CE008A99F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81ADF1B6124CE008A99F4 /* CoreGraphics.framework */; };
+		23E81AE91B6124CE008A99F4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AE01B6124CE008A99F4 /* libsqlite3.dylib */; };
+		23E81AEA1B6124CE008A99F4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AE11B6124CE008A99F4 /* libz.dylib */; };
+		23E81AEB1B6124CE008A99F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AE21B6124CE008A99F4 /* Security.framework */; };
+		23E81AEC1B6124CE008A99F4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AE31B6124CE008A99F4 /* Social.framework */; };
+		23E81AED1B6124CE008A99F4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AE41B6124CE008A99F4 /* StoreKit.framework */; };
+		23E81AEE1B6124CE008A99F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AE51B6124CE008A99F4 /* SystemConfiguration.framework */; };
+		23E81AF01B61926C008A99F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AEF1B61926C008A99F4 /* QuartzCore.framework */; };
+		23E81AF21B619298008A99F4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E81AF11B619298008A99F4 /* AudioToolbox.framework */; };
+		23ECA0891A88F20D003A3F34 /* PHQ9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ECA0881A88F20D003A3F34 /* PHQ9ViewController.m */; };
+		23ED6D311B693BA900AA8A65 /* NeoSansIntel-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23E81AF71B61A3AC008A99F4 /* NeoSansIntel-Light.ttf */; };
+		23ED6D331B693BF500AA8A65 /* NeoSansIntel-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23E81AF81B61A3AC008A99F4 /* NeoSansIntel-LightItalic.ttf */; };
+		23ED6D341B693BF900AA8A65 /* NeoSansIntel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23E81AFB1B61A3AC008A99F4 /* NeoSansIntel.ttf */; };
+		23F078F21B4C0F720047DD3D /* LaunchScreenPsi.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F078F11B4C0F720047DD3D /* LaunchScreenPsi.xib */; };
+		23F6C7131B66B690001A36A8 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F6C7121B66B690001A36A8 /* ParseUI.framework */; };
+		23F770FA1A800058005CB747 /* EfectosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F770F91A800058005CB747 /* EfectosTableViewController.m */; };
+		23F770FD1A800842005CB747 /* EfectosSecundatios.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F770FC1A800842005CB747 /* EfectosSecundatios.m */; };
+		23F7779B1A82AE2400025228 /* Forms.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F7779A1A82AE2400025228 /* Forms.m */; };
+		EB42B0C77A4E104D1BAC5F86 /* libPods-appPsiquiatra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E82B6CF53AC60879F5009 /* libPods-appPsiquiatra.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230B41101AA4AA77007EFDD4 /* Quotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotes.h; sourceTree = "<group>"; };
+		230B41111AA4AA77007EFDD4 /* Quotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotes.m; sourceTree = "<group>"; };
+		231F4BCF1A76C15F0020F830 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		236216C51B449E3A002DAEB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		236686461B4583080059DAA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		237E83E91AAF35ED0072E846 /* Log_InViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log_InViewController.h; sourceTree = "<group>"; };
+		237E83EA1AAF35ED0072E846 /* Log_InViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log_InViewController.m; sourceTree = "<group>"; };
+		2396D4731A9B6830005270D5 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		2396D4741A9B6830005270D5 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		2396D4761A9B7557005270D5 /* MesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesViewController.h; sourceTree = "<group>"; };
+		2396D4771A9B7557005270D5 /* MesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesViewController.m; sourceTree = "<group>"; };
+		2396D4791A9B8004005270D5 /* CitasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitasViewController.h; sourceTree = "<group>"; };
+		2396D47A1A9B8004005270D5 /* CitasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitasViewController.m; sourceTree = "<group>"; };
+		23A83E781A72B1C700C612ED /* PsiquiatriaTQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsiquiatriaTQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A83E7C1A72B1C700C612ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A83E7D1A72B1C700C612ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23A83E7F1A72B1C700C612ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23A83E801A72B1C700C612ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23A83E891A72B1C700C612ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23AE8DA41A815E78009441C8 /* DiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaViewController.h; sourceTree = "<group>"; };
+		23AE8DA51A815E78009441C8 /* DiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaViewController.m; sourceTree = "<group>"; };
+		23C3AA131A8403CE00FE4988 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		23C3AA141A8403CE00FE4988 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		23CA65381AB9D0BA00B903E7 /* MontgomeryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MontgomeryViewController.h; sourceTree = "<group>"; };
+		23CA65391AB9D0BA00B903E7 /* MontgomeryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MontgomeryViewController.m; sourceTree = "<group>"; };
+		23E81AD91B61221E008A99F4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		23E81ADA1B61221E008A99F4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		23E81ADD1B6124CE008A99F4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		23E81ADE1B6124CE008A99F4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		23E81ADF1B6124CE008A99F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23E81AE01B6124CE008A99F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		23E81AE11B6124CE008A99F4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		23E81AE21B6124CE008A99F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		23E81AE31B6124CE008A99F4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		23E81AE41B6124CE008A99F4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		23E81AE51B6124CE008A99F4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23E81AEF1B61926C008A99F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		23E81AF11B619298008A99F4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		23E81AF61B61A3AC008A99F4 /* NeoSansIntel-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSansIntel-Italic.ttf"; sourceTree = "<group>"; };
+		23E81AF71B61A3AC008A99F4 /* NeoSansIntel-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSansIntel-Light.ttf"; sourceTree = "<group>"; };
+		23E81AF81B61A3AC008A99F4 /* NeoSansIntel-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSansIntel-LightItalic.ttf"; sourceTree = "<group>"; };
+		23E81AF91B61A3AC008A99F4 /* NeoSansIntel-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSansIntel-Medium.ttf"; sourceTree = "<group>"; };
+		23E81AFA1B61A3AC008A99F4 /* NeoSansIntel-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeoSansIntel-MediumItalic.ttf"; sourceTree = "<group>"; };
+		23E81AFB1B61A3AC008A99F4 /* NeoSansIntel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeoSansIntel.ttf; sourceTree = "<group>"; };
+		23ECA0871A88F20D003A3F34 /* PHQ9ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHQ9ViewController.h; sourceTree = "<group>"; };
+		23ECA0881A88F20D003A3F34 /* PHQ9ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHQ9ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		23F078F11B4C0F720047DD3D /* LaunchScreenPsi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreenPsi.xib; sourceTree = "<group>"; };
+		23F6C7121B66B690001A36A8 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		23F770F81A800058005CB747 /* EfectosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EfectosTableViewController.h; sourceTree = "<group>"; };
+		23F770F91A800058005CB747 /* EfectosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EfectosTableViewController.m; sourceTree = "<group>"; };
+		23F770FB1A800842005CB747 /* EfectosSecundatios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EfectosSecundatios.h; sourceTree = "<group>"; };
+		23F770FC1A800842005CB747 /* EfectosSecundatios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EfectosSecundatios.m; sourceTree = "<group>"; };
+		23F777991A82AE2400025228 /* Forms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forms.h; sourceTree = "<group>"; };
+		23F7779A1A82AE2400025228 /* Forms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forms.m; sourceTree = "<group>"; };
+		838E82B6CF53AC60879F5009 /* libPods-appPsiquiatra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appPsiquiatra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCFE2F410E0599B3220398D /* Pods-appPsiquiatra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appPsiquiatra.release.xcconfig"; path = "Pods/Target Support Files/Pods-appPsiquiatra/Pods-appPsiquiatra.release.xcconfig"; sourceTree = "<group>"; };
+		E86B55D7F43E66A3938A82DA /* Pods-appPsiquiatra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appPsiquiatra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appPsiquiatra/Pods-appPsiquiatra.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23A83E751A72B1C700C612ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E81AF21B619298008A99F4 /* AudioToolbox.framework in Frameworks */,
+				23E81AF01B61926C008A99F4 /* QuartzCore.framework in Frameworks */,
+				23E81AE61B6124CE008A99F4 /* Accounts.framework in Frameworks */,
+				23E81AE71B6124CE008A99F4 /* CFNetwork.framework in Frameworks */,
+				23E81AE81B6124CE008A99F4 /* CoreGraphics.framework in Frameworks */,
+				23E81AE91B6124CE008A99F4 /* libsqlite3.dylib in Frameworks */,
+				23E81AEA1B6124CE008A99F4 /* libz.dylib in Frameworks */,
+				23E81AEB1B6124CE008A99F4 /* Security.framework in Frameworks */,
+				23E81AEC1B6124CE008A99F4 /* Social.framework in Frameworks */,
+				23E81AED1B6124CE008A99F4 /* StoreKit.framework in Frameworks */,
+				23E81AEE1B6124CE008A99F4 /* SystemConfiguration.framework in Frameworks */,
+				EB42B0C77A4E104D1BAC5F86 /* libPods-appPsiquiatra.a in Frameworks */,
+				23F6C7131B66B690001A36A8 /* ParseUI.framework in Frameworks */,
+				23E81ADC1B61221E008A99F4 /* Parse.framework in Frameworks */,
+				23E81ADB1B61221E008A99F4 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A83E6F1A72B1C700C612ED = {
+			isa = PBXGroup;
+			children = (
+				23A83E7A1A72B1C700C612ED /* appPsiquiatra */,
+				BA6752623479FE037A979029 /* Frameworks */,
+				88CE9210F7AB953653C7A0DA /* Pods */,
+				23A83E791A72B1C700C612ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23A83E791A72B1C700C612ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23A83E781A72B1C700C612ED /* PsiquiatriaTQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23A83E7A1A72B1C700C612ED /* appPsiquiatra */ = {
+			isa = PBXGroup;
+			children = (
+				23A83E7F1A72B1C700C612ED /* AppDelegate.h */,
+				23A83E801A72B1C700C612ED /* AppDelegate.m */,
+				23A83E881A72B1C700C612ED /* Main.storyboard */,
+				236216C51B449E3A002DAEB9 /* Images.xcassets */,
+				23F078F11B4C0F720047DD3D /* LaunchScreenPsi.xib */,
+				23F777911A82750B00025228 /* Model */,
+				23F777901A8274B800025228 /* Controllers */,
+				23A83E7B1A72B1C700C612ED /* Supporting Files */,
+			);
+			path = appPsiquiatra;
+			sourceTree = "<group>";
+		};
+		23A83E7B1A72B1C700C612ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23E81AF71B61A3AC008A99F4 /* NeoSansIntel-Light.ttf */,
+				23E81AF61B61A3AC008A99F4 /* NeoSansIntel-Italic.ttf */,
+				23E81AF81B61A3AC008A99F4 /* NeoSansIntel-LightItalic.ttf */,
+				23E81AF91B61A3AC008A99F4 /* NeoSansIntel-Medium.ttf */,
+				23E81AFA1B61A3AC008A99F4 /* NeoSansIntel-MediumItalic.ttf */,
+				23E81AFB1B61A3AC008A99F4 /* NeoSansIntel.ttf */,
+				231F4BCF1A76C15F0020F830 /* Images */,
+				23A83E7C1A72B1C700C612ED /* Info.plist */,
+				23A83E7D1A72B1C700C612ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23F777901A8274B800025228 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23C3AA131A8403CE00FE4988 /* ProfileViewController.h */,
+				23C3AA141A8403CE00FE4988 /* ProfileViewController.m */,
+				23F777921A827B5000025228 /* Formularios */,
+				23F770F81A800058005CB747 /* EfectosTableViewController.h */,
+				23F770F91A800058005CB747 /* EfectosTableViewController.m */,
+				23AE8DA41A815E78009441C8 /* DiaViewController.h */,
+				23AE8DA51A815E78009441C8 /* DiaViewController.m */,
+				2396D4731A9B6830005270D5 /* AlertViewController.h */,
+				2396D4741A9B6830005270D5 /* AlertViewController.m */,
+				2396D4761A9B7557005270D5 /* MesViewController.h */,
+				2396D4771A9B7557005270D5 /* MesViewController.m */,
+				2396D4791A9B8004005270D5 /* CitasViewController.h */,
+				2396D47A1A9B8004005270D5 /* CitasViewController.m */,
+				237E83E91AAF35ED0072E846 /* Log_InViewController.h */,
+				237E83EA1AAF35ED0072E846 /* Log_InViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		23F777911A82750B00025228 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23F770FB1A800842005CB747 /* EfectosSecundatios.h */,
+				23F770FC1A800842005CB747 /* EfectosSecundatios.m */,
+				23F777991A82AE2400025228 /* Forms.h */,
+				23F7779A1A82AE2400025228 /* Forms.m */,
+				230B41101AA4AA77007EFDD4 /* Quotes.h */,
+				230B41111AA4AA77007EFDD4 /* Quotes.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		23F777921A827B5000025228 /* Formularios */ = {
+			isa = PBXGroup;
+			children = (
+				23ECA0871A88F20D003A3F34 /* PHQ9ViewController.h */,
+				23ECA0881A88F20D003A3F34 /* PHQ9ViewController.m */,
+				23CA65381AB9D0BA00B903E7 /* MontgomeryViewController.h */,
+				23CA65391AB9D0BA00B903E7 /* MontgomeryViewController.m */,
+			);
+			name = Formularios;
+			sourceTree = "<group>";
+		};
+		88CE9210F7AB953653C7A0DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86B55D7F43E66A3938A82DA /* Pods-appPsiquiatra.debug.xcconfig */,
+				BBCFE2F410E0599B3220398D /* Pods-appPsiquiatra.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA6752623479FE037A979029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23F6C7121B66B690001A36A8 /* ParseUI.framework */,
+				23E81AF11B619298008A99F4 /* AudioToolbox.framework */,
+				23E81AEF1B61926C008A99F4 /* QuartzCore.framework */,
+				23E81ADD1B6124CE008A99F4 /* Accounts.framework */,
+				23E81ADE1B6124CE008A99F4 /* CFNetwork.framework */,
+				23E81ADF1B6124CE008A99F4 /* CoreGraphics.framework */,
+				23E81AE01B6124CE008A99F4 /* libsqlite3.dylib */,
+				23E81AE11B6124CE008A99F4 /* libz.dylib */,
+				23E81AE21B6124CE008A99F4 /* Security.framework */,
+				23E81AE31B6124CE008A99F4 /* Social.framework */,
+				23E81AE41B6124CE008A99F4 /* StoreKit.framework */,
+				23E81AE51B6124CE008A99F4 /* SystemConfiguration.framework */,
+				23E81AD91B61221E008A99F4 /* Bolts.framework */,
+				23E81ADA1B61221E008A99F4 /* Parse.framework */,
+				838E82B6CF53AC60879F5009 /* libPods-appPsiquiatra.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23A83E771A72B1C700C612ED /* PsiquiatriaTQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A83E9E1A72B1C700C612ED /* Build configuration list for PBXNativeTarget "PsiquiatriaTQ" */;
+			buildPhases = (
+				EF34E63BB1910372F43D3978 /* Check Pods Manifest.lock */,
+				23A83E741A72B1C700C612ED /* Sources */,
+				23A83E751A72B1C700C612ED /* Frameworks */,
+				23A83E761A72B1C700C612ED /* Resources */,
+				9E0FFB62AD4298BD7949728A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PsiquiatriaTQ;
+			productName = appPsiquiatra;
+			productReference = 23A83E781A72B1C700C612ED /* PsiquiatriaTQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23A83E701A72B1C700C612ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Igloo Lab";
+				TargetAttributes = {
+					23A83E771A72B1C700C612ED = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = CPY53ADY33;
+					};
+				};
+			};
+			buildConfigurationList = 23A83E731A72B1C700C612ED /* Build configuration list for PBXProject "PsiquiatriaTQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23A83E6F1A72B1C700C612ED;
+			productRefGroup = 23A83E791A72B1C700C612ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23A83E771A72B1C700C612ED /* PsiquiatriaTQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23A83E761A72B1C700C612ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F078F21B4C0F720047DD3D /* LaunchScreenPsi.xib in Resources */,
+				23ED6D341B693BF900AA8A65 /* NeoSansIntel.ttf in Resources */,
+				23ED6D311B693BA900AA8A65 /* NeoSansIntel-Light.ttf in Resources */,
+				236216C61B449E3A002DAEB9 /* Images.xcassets in Resources */,
+				231F4BD01A76C15F0020F830 /* Images in Resources */,
+				23ED6D331B693BF500AA8A65 /* NeoSansIntel-LightItalic.ttf in Resources */,
+				23A83E8A1A72B1C700C612ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0FFB62AD4298BD7949728A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appPsiquiatra/Pods-appPsiquiatra-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF34E63BB1910372F43D3978 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23A83E741A72B1C700C612ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230B41121AA4AA77007EFDD4 /* Quotes.m in Sources */,
+				2396D4751A9B6830005270D5 /* AlertViewController.m in Sources */,
+				23A83E811A72B1C700C612ED /* AppDelegate.m in Sources */,
+				23F7779B1A82AE2400025228 /* Forms.m in Sources */,
+				23C3AA151A8403CE00FE4988 /* ProfileViewController.m in Sources */,
+				23F770FA1A800058005CB747 /* EfectosTableViewController.m in Sources */,
+				23F770FD1A800842005CB747 /* EfectosSecundatios.m in Sources */,
+				23ECA0891A88F20D003A3F34 /* PHQ9ViewController.m in Sources */,
+				2396D4781A9B7557005270D5 /* MesViewController.m in Sources */,
+				23A83E7E1A72B1C700C612ED /* main.m in Sources */,
+				23AE8DA61A815E78009441C8 /* DiaViewController.m in Sources */,
+				237E83EB1AAF35ED0072E846 /* Log_InViewController.m in Sources */,
+				2396D47B1A9B8004005270D5 /* CitasViewController.m in Sources */,
+				23CA653A1AB9D0BA00B903E7 /* MontgomeryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23A83E881A72B1C700C612ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A83E891A72B1C700C612ED /* Base */,
+				236686461B4583080059DAA8 /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23A83E9C1A72B1C700C612ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23A83E9D1A72B1C700C612ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23A83E9F1A72B1C700C612ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86B55D7F43E66A3938A82DA /* Pods-appPsiquiatra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = appPsiquiatra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = PsiquiatriaTQ;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		23A83EA01A72B1C700C612ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCFE2F410E0599B3220398D /* Pods-appPsiquiatra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = appPsiquiatra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = PsiquiatriaTQ;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23A83E731A72B1C700C612ED /* Build configuration list for PBXProject "PsiquiatriaTQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A83E9C1A72B1C700C612ED /* Debug */,
+				23A83E9D1A72B1C700C612ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23A83E9E1A72B1C700C612ED /* Build configuration list for PBXNativeTarget "PsiquiatriaTQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A83E9F1A72B1C700C612ED /* Debug */,
+				23A83EA01A72B1C700C612ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23A83E701A72B1C700C612ED /* Project object */;
+}

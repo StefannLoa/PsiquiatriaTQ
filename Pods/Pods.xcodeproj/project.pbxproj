@@ -1,1472 +1,716 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03B801DB450D49D3179271A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>243B44C035555BD63DE2206E</string>
-				<string>536B8823F0A4BA83E9D37AE0</string>
-				<string>4F13C6D371DC51CCB9EC4EDC</string>
-				<string>EC4F89C4534A34DA3FB728BE</string>
-				<string>8C3EEC81EDFD61FF407C9546</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03BEC3DAA2F0A23EE9590D74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarWeekView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarWeekView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05A017EC0706E194DD0A234D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FF8054778E8F52A0D8A00B06</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BAC11C9CFCDB7F967BD5F536</string>
-				<string>14345A87989DA1E19A5CCF73</string>
-				<string>37D8B1A242ADF40A168807DA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-appPsiquiatra-JTCalendar</string>
-			<key>productName</key>
-			<string>Pods-appPsiquiatra-JTCalendar</string>
-			<key>productReference</key>
-			<string>BDBA6CEF25191FD964F0856E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>05D9E8FADF6B46F5348AE164</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1672D02083203D1FBCC17ED9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>066B44C2990B6311CCD4A87A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-JTCalendar-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10EB50B0527A5BF29687C30F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0F7561498D4BAADA2A833AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14345A87989DA1E19A5CCF73</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6F5D1D71913FDDB04EEC63FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>157DEA100EA06080E7AAA493</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarDayView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarDayView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1672D02083203D1FBCC17ED9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE27B54D3F42BB56D573871E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1944F7FF3ACD8293A0EC192F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarMenuView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMenuView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19E3776A1F2E9A186A949E3C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarDataCache.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarDataCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FB085F07CCBD36DA5BDB114</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCircleView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCircleView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2109C088A01FA13D0F36B550</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21613F507891FD450519164F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F74EEA74046F497D7BF62403</string>
-				<string>29065715F6C769970D5BFBCD</string>
-				<string>AE27B54D3F42BB56D573871E</string>
-				<string>C2D8CFE385927A9CF9AA94DD</string>
-				<string>DC8A0EF6A3C0ACD6E66535C1</string>
-				<string>2109C088A01FA13D0F36B550</string>
-				<string>ECFA3043FAAC7AA4F729E667</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-appPsiquiatra</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-appPsiquiatra</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2320AB90090E77746A65DE1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarDataCache.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarDataCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>243B44C035555BD63DE2206E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>268AA22734CA6FCCBAD258D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarDayView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarDayView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27A2CD9310CBB5B2ED769736</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-JTCalendar-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28CFA25ACB3CA3599A0BF891</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89A82316C02463434BFB0E04</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29065715F6C769970D5BFBCD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>298FBDD305681C18A0F84D6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2320AB90090E77746A65DE1E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A5D93B4F9565DEFBD02E138</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA023EEEA6ED195993F630B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B58F4B4872068A6CADC3AC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarAppearance.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarAppearance.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2EBB1B68D78F70AD05A51AB9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>307DC39F43CA952AD2591D48</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2109C088A01FA13D0F36B550</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>357DE8F896FCE491F9D83F29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E033FF00597CD912877780B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>362D27A5605AEF65A4D9B91C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-JTCalendar.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37D8B1A242ADF40A168807DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>78FFCB3815D018FC1641B85C</string>
-				<string>2A5D93B4F9565DEFBD02E138</string>
-				<string>E591E5563432FAD3C8908EC0</string>
-				<string>D42B6C5C3C618449028B69DC</string>
-				<string>E2008276B33761AECA51EBAA</string>
-				<string>DE2786C47C9E736EE6FB74AA</string>
-				<string>460C28E4088C7D38FB59F404</string>
-				<string>723B559D4967D4572CD036FA</string>
-				<string>989386F35935F579814801A3</string>
-				<string>8B470BE2855187F91F9F6426</string>
-				<string>B9488FF7EDFC568F47FF3845</string>
-				<string>F098BCFD6A1F5FFCA1D868CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>380EE2D3ECC04397C69DA5CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendar.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendar.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3BE6E71B3F8A18C45625F2F1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4458536BF699BF56DA1F1C5C</string>
-				<string>380EE2D3ECC04397C69DA5CC</string>
-				<string>AA023EEEA6ED195993F630B6</string>
-				<string>2B58F4B4872068A6CADC3AC7</string>
-				<string>C109EC1323FBBA32793BB872</string>
-				<string>85D0F52BE30350E497DE7EDA</string>
-				<string>19E3776A1F2E9A186A949E3C</string>
-				<string>2320AB90090E77746A65DE1E</string>
-				<string>157DEA100EA06080E7AAA493</string>
-				<string>268AA22734CA6FCCBAD258D6</string>
-				<string>4B4B91D3EAC0251CDCD1E78E</string>
-				<string>E0F7561498D4BAADA2A833AC</string>
-				<string>1944F7FF3ACD8293A0EC192F</string>
-				<string>7A74A943BB306F3AD6B41CBB</string>
-				<string>F18F4095994F4DFDAB4B54E3</string>
-				<string>7D38C3B3E14FD141D5F6AAC1</string>
-				<string>EFE9C24B5AEDA07145732069</string>
-				<string>E033FF00597CD912877780B7</string>
-				<string>9BDC38E172C397598B30AD69</string>
-				<string>03BEC3DAA2F0A23EE9590D74</string>
-				<string>504DCD02866FEB05BD0F6A0A</string>
-				<string>BDA006134E752E42AAFAF719</string>
-				<string>1FB085F07CCBD36DA5BDB114</string>
-				<string>DB3B1FB1C7C7E73C8EA5C69F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JTCalendar</string>
-			<key>path</key>
-			<string>JTCalendar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4458536BF699BF56DA1F1C5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendar.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendar.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>460C28E4088C7D38FB59F404</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1944F7FF3ACD8293A0EC192F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B4B91D3EAC0251CDCD1E78E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarMenuMonthView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMenuMonthView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F13C6D371DC51CCB9EC4EDC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3BE6E71B3F8A18C45625F2F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>504DCD02866FEB05BD0F6A0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarWeekView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarWeekView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>536B8823F0A4BA83E9D37AE0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F3EBD0BEABFAB42D4B251CFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D1D141346D3639C5A717408</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>066B44C2990B6311CCD4A87A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-appPsiquiatra-JTCalendar/Pods-appPsiquiatra-JTCalendar-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>608992A789CB7D440E6C4398</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D4A9ED104D2FF58E8A536686</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>626F67ABAB01C4AA39F2675B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>669AF6DD54F51F921F995E12</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85D0F52BE30350E497DE7EDA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F01A0E42EB0ADAAC3AF45CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B58F4B4872068A6CADC3AC7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F5D1D71913FDDB04EEC63FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B82F6F4F50860582FF54A72A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>723B559D4967D4572CD036FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F18F4095994F4DFDAB4B54E3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>782AB1A8E5E617716B51634E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ECFA3043FAAC7AA4F729E667</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>78FFCB3815D018FC1641B85C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4458536BF699BF56DA1F1C5C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A74A943BB306F3AD6B41CBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarMenuView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMenuView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D38C3B3E14FD141D5F6AAC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarMonthView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMonthView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81A8671718474BAD2B466A7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1FB085F07CCBD36DA5BDB114</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>841FCBD3B1355A5F0921404D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>380EE2D3ECC04397C69DA5CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>85D0F52BE30350E497DE7EDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarContentView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarContentView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89A82316C02463434BFB0E04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-JTCalendar-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B470BE2855187F91F9F6426</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BDC38E172C397598B30AD69</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C3EEC81EDFD61FF407C9546</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>21613F507891FD450519164F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>989386F35935F579814801A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFE9C24B5AEDA07145732069</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9BDC38E172C397598B30AD69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarViewDataSource.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarViewDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4D7B3006B19CE2E51DD9D83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>504DCD02866FEB05BD0F6A0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA023EEEA6ED195993F630B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarAppearance.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarAppearance.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE27B54D3F42BB56D573871E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B82F6F4F50860582FF54A72A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B9488FF7EDFC568F47FF3845</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03BEC3DAA2F0A23EE9590D74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BAC11C9CFCDB7F967BD5F536</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>841FCBD3B1355A5F0921404D</string>
-				<string>6F01A0E42EB0ADAAC3AF45CA</string>
-				<string>669AF6DD54F51F921F995E12</string>
-				<string>298FBDD305681C18A0F84D6E</string>
-				<string>D9E0F10F325BA97AC552F12E</string>
-				<string>10EB50B0527A5BF29687C30F</string>
-				<string>CCEBFFE90F644FCEB7DF4673</string>
-				<string>FB121A3A498B556371430C58</string>
-				<string>357DE8F896FCE491F9D83F29</string>
-				<string>A4D7B3006B19CE2E51DD9D83</string>
-				<string>81A8671718474BAD2B466A7C</string>
-				<string>28CFA25ACB3CA3599A0BF891</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BB52D27EE32DC37069BD8EB5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>626F67ABAB01C4AA39F2675B</string>
-				<string>2EBB1B68D78F70AD05A51AB9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BDA006134E752E42AAFAF719</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCircleView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCircleView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDBA6CEF25191FD964F0856E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-appPsiquiatra-JTCalendar.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C109EC1323FBBA32793BB872</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarContentView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarContentView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C291B8A42A8360A96A6846C8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BB52D27EE32DC37069BD8EB5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>03B801DB450D49D3179271A6</string>
-			<key>productRefGroup</key>
-			<string>EC4F89C4534A34DA3FB728BE</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C6BCC8A93F28691A8FAC5758</string>
-				<string>05A017EC0706E194DD0A234D</string>
-			</array>
-		</dict>
-		<key>C2D8CFE385927A9CF9AA94DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6BCC8A93F28691A8FAC5758</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FBB3242C80799BFD5EBCCFF5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>05D9E8FADF6B46F5348AE164</string>
-				<string>608992A789CB7D440E6C4398</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C87FEFBC435E63F2A98CE8B9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-appPsiquiatra</string>
-			<key>productName</key>
-			<string>Pods-appPsiquiatra</string>
-			<key>productReference</key>
-			<string>F939CB0A1625EB9E17ADA55D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C87FEFBC435E63F2A98CE8B9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-appPsiquiatra-JTCalendar</string>
-			<key>target</key>
-			<string>05A017EC0706E194DD0A234D</string>
-			<key>targetProxy</key>
-			<string>F30D01176447DFFC292F48CC</string>
-		</dict>
-		<key>CCEBFFE90F644FCEB7DF4673</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A74A943BB306F3AD6B41CBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D42B6C5C3C618449028B69DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19E3776A1F2E9A186A949E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D4A9ED104D2FF58E8A536686</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B82F6F4F50860582FF54A72A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D9E0F10F325BA97AC552F12E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>268AA22734CA6FCCBAD258D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB3B1FB1C7C7E73C8EA5C69F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>362D27A5605AEF65A4D9B91C</string>
-				<string>066B44C2990B6311CCD4A87A</string>
-				<string>89A82316C02463434BFB0E04</string>
-				<string>27A2CD9310CBB5B2ED769736</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-appPsiquiatra-JTCalendar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC8A0EF6A3C0ACD6E66535C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE2786C47C9E736EE6FB74AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B4B91D3EAC0251CDCD1E78E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E033FF00597CD912877780B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarMonthWeekDaysView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMonthWeekDaysView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0F7561498D4BAADA2A833AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JTCalendarMenuMonthView.m</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMenuMonthView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1BA6881B62DB2E2F3A7C380</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>066B44C2990B6311CCD4A87A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-appPsiquiatra-JTCalendar/Pods-appPsiquiatra-JTCalendar-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E2008276B33761AECA51EBAA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>157DEA100EA06080E7AAA493</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E591E5563432FAD3C8908EC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C109EC1323FBBA32793BB872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EC4F89C4534A34DA3FB728BE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F939CB0A1625EB9E17ADA55D</string>
-				<string>BDBA6CEF25191FD964F0856E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECFA3043FAAC7AA4F729E667</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFE9C24B5AEDA07145732069</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarMonthWeekDaysView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMonthWeekDaysView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F098BCFD6A1F5FFCA1D868CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BDA006134E752E42AAFAF719</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F18F4095994F4DFDAB4B54E3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JTCalendarMonthView.h</string>
-			<key>path</key>
-			<string>JTCalendar/JTCalendarMonthView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F30D01176447DFFC292F48CC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C291B8A42A8360A96A6846C8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>05A017EC0706E194DD0A234D</string>
-			<key>remoteInfo</key>
-			<string>Pods-appPsiquiatra-JTCalendar</string>
-		</dict>
-		<key>F3EBD0BEABFAB42D4B251CFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B82F6F4F50860582FF54A72A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F74EEA74046F497D7BF62403</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-appPsiquiatra-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F939CB0A1625EB9E17ADA55D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-appPsiquiatra.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FB121A3A498B556371430C58</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D38C3B3E14FD141D5F6AAC1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FBB3242C80799BFD5EBCCFF5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>307DC39F43CA952AD2591D48</string>
-				<string>782AB1A8E5E617716B51634E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FF8054778E8F52A0D8A00B06</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5D1D141346D3639C5A717408</string>
-				<string>E1BA6881B62DB2E2F3A7C380</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>C291B8A42A8360A96A6846C8</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064D957E9B0A7F05A65BCDC8 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE7E47BC329E36C7155AB53 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0954133B7B6BEFFFE5A76DDB /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B50ECBDC0937F9084BB950 /* JTCalendarDayView.m */; };
+		0A1BE2D4C825B486F4C3BE1D /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADB2718E28ED64667C2292F /* DistancePickerView.h */; };
+		13A37C65DDAF769AB1115343 /* Pods-appPsiquiatra-ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF46ED2F9E6021C9460E53EE /* Pods-appPsiquiatra-ActionSheetPicker-3.0-dummy.m */; };
+		14BF56C213233A97DA556E87 /* JTCalendarMenuMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247281DE3AEC69344EDA7D84 /* JTCalendarMenuMonthView.m */; };
+		1A2D3223D444186A4B52DCAB /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3F7AC4D1AEA91A9D8E2EA5 /* AbstractActionSheetPicker.h */; };
+		250D4A9D0B0B1235867BE40C /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C57A3C170A7FD0A9CA50A7 /* ActionSheetLocalePicker.h */; };
+		25C578ADECE984370FCB4385 /* JTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A8D129E44836FD0A0204FF /* JTCalendar.h */; };
+		275099608A098F045C1E8961 /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECADF5366833EDEB6D1FFF20 /* JTCalendarMenuView.m */; };
+		35C7D289B46689DDCCC0FE77 /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACC2FBEB5E6C2033AF2B209 /* ActionSheetCustomPickerDelegate.h */; };
+		370D2B150490FF37C23E64B8 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3961C5574280F32D7350670F /* ActionSheetStringPicker.h */; };
+		3A4B17E2CE720E54BC440082 /* JTCalendarDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2540E4593845C6CE822892 /* JTCalendarDataCache.m */; };
+		3E338B4ACA5A1D6B8DBC6487 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E9FE6B608676E96AEE6726 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3FAC49CA33324CDC2B400F7C /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C42F92D2F3DF071625A5DE56 /* ActionSheetCustomPicker.h */; };
+		4309087F0DDE558DE04EB0BC /* JTCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710CC885EDA9595D9680E059 /* JTCalendarMonthView.m */; };
+		464E755C28EDCDF4CCBD4B2A /* JTCalendarMenuMonthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56646D3F8DF0830FD42B4591 /* JTCalendarMenuMonthView.h */; };
+		4E230D861F012110F04344BF /* JTCalendarMonthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5333A9E9BE8D6D81A7FA4284 /* JTCalendarMonthView.h */; };
+		5BC4541393C517679FA35CB7 /* JTCalendarMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B610F3B339D1D3859694E1 /* JTCalendarMenuView.h */; };
+		620398946C54E4807B836DFA /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130847311382753AD323228 /* SWActionSheet.h */; };
+		636D59A2E51D9F315099C480 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6883D88284B8EBBD5959B4 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		644ABA2D572D15B1F7189333 /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A367C4B352A9FE0F3A7CDA0 /* JTCalendarWeekView.m */; };
+		648DBBCC22A2C38C8F4D7B0B /* Pods-appPsiquiatra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332F15BD4E026E00C07EC4B /* Pods-appPsiquiatra-dummy.m */; };
+		73681E58A2181295E15DC450 /* JTCalendarMonthWeekDaysView.h in Headers */ = {isa = PBXBuildFile; fileRef = B49B508C5076C7C52A7BAC0E /* JTCalendarMonthWeekDaysView.h */; };
+		78D308795BC93AF6A6DFAC6C /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B82EFF245C9EAFF4EB71DF /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78DDB5661911B040C0556873 /* JTCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E253D580759BFC0951E816 /* JTCalendar.m */; };
+		94D8AE3631622F35E1C606C3 /* JTCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4373DD8006C163E20BD35F /* JTCircleView.m */; };
+		98B2080053A2AD9D64C51D4E /* JTCalendarDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E293840E71AA61778B8A09 /* JTCalendarDataCache.h */; };
+		9C19F54FFF8E912EB0DD7BC3 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0E27D8B4ECF49F635E7ACD /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FF659FBAB701746EF1965D2 /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FA52A23014A295DB528530 /* ActionSheetPicker.h */; };
+		A300075063145FD9D3B0ED3A /* JTCalendarViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B445DEBA97698EC45456F941 /* JTCalendarViewDataSource.h */; };
+		AA2623C056B6EA855891D391 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D781D7B1BC4688F577C52C /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AEF52D89EBC84DD47C6DFF68 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 903835DE560DFFE9F2F3B03E /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5C5464C26481766A5920604 /* JTCalendarDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89293F244FB9A800E6D34960 /* JTCalendarDayView.h */; };
+		B6D51C964DD32E038B4E828E /* Pods-appPsiquiatra-JTCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DD9D8BC79334E929221FE /* Pods-appPsiquiatra-JTCalendar-dummy.m */; };
+		BB41BDA5F825A873412ADF71 /* JTCalendarContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D41DAFA0A3BF4622D58687 /* JTCalendarContentView.m */; };
+		BE9D5A76575BC318B61B862D /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5003E1AB1C167BCD55D95A /* ActionSheetDatePicker.h */; };
+		BFBF410E010CD4FFBFB7B751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8D02BDFB743841CDCCE48 /* Foundation.framework */; };
+		C1E931A524879F85300D8770 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFE5B45B881A3EF13F32CFF /* UIKit.framework */; };
+		C598AB330BC1EE0989F61FDA /* JTCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCFF198B0FB16771F4C2213 /* JTCalendarAppearance.h */; };
+		C74668337037DD81D955DC54 /* JTCalendarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A80ACE960E7754CFD693D6A /* JTCalendarContentView.h */; };
+		C9E29FA917405E6F1342E435 /* JTCalendarMonthWeekDaysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0F7EACE6E52FBD8F37047 /* JTCalendarMonthWeekDaysView.m */; };
+		DD1498EE791E868CBCD4C7A2 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 718D0D81F8FE3A72E4CDBF1B /* ActionSheetDistancePicker.h */; };
+		DF50AC6D305D8AFC322B7B46 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F65F013337FC3147CAD364F3 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F40DA8E8C39B96F77A76D078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8D02BDFB743841CDCCE48 /* Foundation.framework */; };
+		F72169607B4CAA05B587755B /* JTCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9085177EDEFF7E4AFEB863C6 /* JTCalendarWeekView.h */; };
+		F75F3C9F0C193D351E93AE3A /* JTCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FA10D2A7FDAC732ABDE64 /* JTCalendarAppearance.m */; };
+		F96D3D039110C526B8DCDD23 /* JTCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EFC4CFDC6064CD280880CE /* JTCircleView.h */; };
+		FFDC80EB9CAD0B1E984C383A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8D02BDFB743841CDCCE48 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CC64269CA55DB18EED6738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9176339BB0842565185250E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE2AF7A665F5F7B7B25866D;
+			remoteInfo = "Pods-appPsiquiatra-ActionSheetPicker-3.0";
+		};
+		9A7B0E1B4E8A21EA8D63F576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9176339BB0842565185250E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DC07044071B54EC06BC815;
+			remoteInfo = "Pods-appPsiquiatra-JTCalendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B5641160C6504AE0004C69 /* Pods-appPsiquiatra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appPsiquiatra.debug.xcconfig"; sourceTree = "<group>"; };
+		0AD0F7EACE6E52FBD8F37047 /* JTCalendarMonthWeekDaysView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMonthWeekDaysView.m; path = JTCalendar/JTCalendarMonthWeekDaysView.m; sourceTree = "<group>"; };
+		155B502D23C6E4AEA18E7204 /* libPods-appPsiquiatra-JTCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appPsiquiatra-JTCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFC4CFDC6064CD280880CE /* JTCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCircleView.h; path = JTCalendar/JTCircleView.h; sourceTree = "<group>"; };
+		1A0077F18244098E0107A83F /* libPods-appPsiquiatra-ActionSheetPicker-3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appPsiquiatra-ActionSheetPicker-3.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6883D88284B8EBBD5959B4 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		20FA52A23014A295DB528530 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		247281DE3AEC69344EDA7D84 /* JTCalendarMenuMonthView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMenuMonthView.m; path = JTCalendar/JTCalendarMenuMonthView.m; sourceTree = "<group>"; };
+		29B610F3B339D1D3859694E1 /* JTCalendarMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMenuView.h; path = JTCalendar/JTCalendarMenuView.h; sourceTree = "<group>"; };
+		33E253D580759BFC0951E816 /* JTCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendar.m; path = JTCalendar/JTCalendar.m; sourceTree = "<group>"; };
+		3961C5574280F32D7350670F /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		43B82EFF245C9EAFF4EB71DF /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		4A80ACE960E7754CFD693D6A /* JTCalendarContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarContentView.h; path = JTCalendar/JTCalendarContentView.h; sourceTree = "<group>"; };
+		5130847311382753AD323228 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		5333A9E9BE8D6D81A7FA4284 /* JTCalendarMonthView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMonthView.h; path = JTCalendar/JTCalendarMonthView.h; sourceTree = "<group>"; };
+		56646D3F8DF0830FD42B4591 /* JTCalendarMenuMonthView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMenuMonthView.h; path = JTCalendar/JTCalendarMenuMonthView.h; sourceTree = "<group>"; };
+		5E5003E1AB1C167BCD55D95A /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		61B50ECBDC0937F9084BB950 /* JTCalendarDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDayView.m; path = JTCalendar/JTCalendarDayView.m; sourceTree = "<group>"; };
+		67E293840E71AA61778B8A09 /* JTCalendarDataCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDataCache.h; path = JTCalendar/JTCalendarDataCache.h; sourceTree = "<group>"; };
+		69C57A3C170A7FD0A9CA50A7 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		6BFE5B45B881A3EF13F32CFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6D3F7AC4D1AEA91A9D8E2EA5 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		710CC885EDA9595D9680E059 /* JTCalendarMonthView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMonthView.m; path = JTCalendar/JTCalendarMonthView.m; sourceTree = "<group>"; };
+		718D0D81F8FE3A72E4CDBF1B /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		7332F15BD4E026E00C07EC4B /* Pods-appPsiquiatra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appPsiquiatra-dummy.m"; sourceTree = "<group>"; };
+		78738A4396473A40F2D3FFB8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A367C4B352A9FE0F3A7CDA0 /* JTCalendarWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekView.m; path = JTCalendar/JTCalendarWeekView.m; sourceTree = "<group>"; };
+		7ACC2FBEB5E6C2033AF2B209 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		7BD4C39E5E7AFF28D7A6677E /* Pods-appPsiquiatra-JTCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appPsiquiatra-JTCalendar.xcconfig"; sourceTree = "<group>"; };
+		7D8EAF081B2A9A3C3AC44B74 /* libPods-appPsiquiatra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appPsiquiatra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D41DAFA0A3BF4622D58687 /* JTCalendarContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarContentView.m; path = JTCalendar/JTCalendarContentView.m; sourceTree = "<group>"; };
+		89293F244FB9A800E6D34960 /* JTCalendarDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDayView.h; path = JTCalendar/JTCalendarDayView.h; sourceTree = "<group>"; };
+		89E63581F6609DF00FFA9A4E /* Pods-appPsiquiatra-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-appPsiquiatra-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A2540E4593845C6CE822892 /* JTCalendarDataCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDataCache.m; path = JTCalendar/JTCalendarDataCache.m; sourceTree = "<group>"; };
+		903835DE560DFFE9F2F3B03E /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		9085177EDEFF7E4AFEB863C6 /* JTCalendarWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekView.h; path = JTCalendar/JTCalendarWeekView.h; sourceTree = "<group>"; };
+		9ADB2718E28ED64667C2292F /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		9D4373DD8006C163E20BD35F /* JTCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCircleView.m; path = JTCalendar/JTCircleView.m; sourceTree = "<group>"; };
+		AD4737103F49A2323F7355C4 /* Pods-appPsiquiatra-JTCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appPsiquiatra-JTCalendar-prefix.pch"; sourceTree = "<group>"; };
+		AF46ED2F9E6021C9460E53EE /* Pods-appPsiquiatra-ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appPsiquiatra-ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		AFA0048AC393CF15335082C4 /* Pods-appPsiquiatra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appPsiquiatra.release.xcconfig"; sourceTree = "<group>"; };
+		B43FA10D2A7FDAC732ABDE64 /* JTCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarAppearance.m; path = JTCalendar/JTCalendarAppearance.m; sourceTree = "<group>"; };
+		B445DEBA97698EC45456F941 /* JTCalendarViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarViewDataSource.h; path = JTCalendar/JTCalendarViewDataSource.h; sourceTree = "<group>"; };
+		B49B508C5076C7C52A7BAC0E /* JTCalendarMonthWeekDaysView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMonthWeekDaysView.h; path = JTCalendar/JTCalendarMonthWeekDaysView.h; sourceTree = "<group>"; };
+		BFE7E47BC329E36C7155AB53 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		C1A8D129E44836FD0A0204FF /* JTCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendar.h; path = JTCalendar/JTCalendar.h; sourceTree = "<group>"; };
+		C1F55F3D00BFBB68BFA2FFF6 /* Pods-appPsiquiatra-ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appPsiquiatra-ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		C3BA0CE481A58BE5155AD25F /* Pods-appPsiquiatra-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-appPsiquiatra-resources.sh"; sourceTree = "<group>"; };
+		C42F92D2F3DF071625A5DE56 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		D3AF9CFF052E5F70C7A9B15B /* Pods-appPsiquiatra-ActionSheetPicker-3.0-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appPsiquiatra-ActionSheetPicker-3.0-Private.xcconfig"; sourceTree = "<group>"; };
+		D5519EC0333412F68831C481 /* Pods-appPsiquiatra-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appPsiquiatra-environment.h"; sourceTree = "<group>"; };
+		DDCFF198B0FB16771F4C2213 /* JTCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarAppearance.h; path = JTCalendar/JTCalendarAppearance.h; sourceTree = "<group>"; };
+		DF0E27D8B4ECF49F635E7ACD /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		E3E9FE6B608676E96AEE6726 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		E4A55C661D0B178C58A17DDE /* Pods-appPsiquiatra-ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appPsiquiatra-ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		E4A5C55771A1E62CC4E541BD /* Pods-appPsiquiatra-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-appPsiquiatra-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E97D72880722FC88B4D53930 /* Pods-appPsiquiatra-JTCalendar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-appPsiquiatra-JTCalendar-Private.xcconfig"; sourceTree = "<group>"; };
+		ECADF5366833EDEB6D1FFF20 /* JTCalendarMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMenuView.m; path = JTCalendar/JTCalendarMenuView.m; sourceTree = "<group>"; };
+		F0D781D7B1BC4688F577C52C /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		F4E8D02BDFB743841CDCCE48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F50DD9D8BC79334E929221FE /* Pods-appPsiquiatra-JTCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-appPsiquiatra-JTCalendar-dummy.m"; sourceTree = "<group>"; };
+		F65F013337FC3147CAD364F3 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E200E1EECCFDB9A161032CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBF410E010CD4FFBFB7B751 /* Foundation.framework in Frameworks */,
+				C1E931A524879F85300D8770 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A88AA6C97120B180B240684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DA8E8C39B96F77A76D078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D6020ECA9BEC6AC529EA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDC80EB9CAD0B1E984C383A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1977C7BE79B8BC88A23C05 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8D02BDFB743841CDCCE48 /* Foundation.framework */,
+				6BFE5B45B881A3EF13F32CFF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53F8D75732EA1255BC72C90E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E63EC896B13F46B1AA3C4A /* Pods-appPsiquiatra */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CBD2FFD4F770C3B23BD7310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8EAF081B2A9A3C3AC44B74 /* libPods-appPsiquiatra.a */,
+				1A0077F18244098E0107A83F /* libPods-appPsiquiatra-ActionSheetPicker-3.0.a */,
+				155B502D23C6E4AEA18E7204 /* libPods-appPsiquiatra-JTCalendar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62391882DBBD8B73E8370966 /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8D129E44836FD0A0204FF /* JTCalendar.h */,
+				33E253D580759BFC0951E816 /* JTCalendar.m */,
+				DDCFF198B0FB16771F4C2213 /* JTCalendarAppearance.h */,
+				B43FA10D2A7FDAC732ABDE64 /* JTCalendarAppearance.m */,
+				4A80ACE960E7754CFD693D6A /* JTCalendarContentView.h */,
+				84D41DAFA0A3BF4622D58687 /* JTCalendarContentView.m */,
+				67E293840E71AA61778B8A09 /* JTCalendarDataCache.h */,
+				8A2540E4593845C6CE822892 /* JTCalendarDataCache.m */,
+				89293F244FB9A800E6D34960 /* JTCalendarDayView.h */,
+				61B50ECBDC0937F9084BB950 /* JTCalendarDayView.m */,
+				56646D3F8DF0830FD42B4591 /* JTCalendarMenuMonthView.h */,
+				247281DE3AEC69344EDA7D84 /* JTCalendarMenuMonthView.m */,
+				29B610F3B339D1D3859694E1 /* JTCalendarMenuView.h */,
+				ECADF5366833EDEB6D1FFF20 /* JTCalendarMenuView.m */,
+				5333A9E9BE8D6D81A7FA4284 /* JTCalendarMonthView.h */,
+				710CC885EDA9595D9680E059 /* JTCalendarMonthView.m */,
+				B49B508C5076C7C52A7BAC0E /* JTCalendarMonthWeekDaysView.h */,
+				0AD0F7EACE6E52FBD8F37047 /* JTCalendarMonthWeekDaysView.m */,
+				B445DEBA97698EC45456F941 /* JTCalendarViewDataSource.h */,
+				9085177EDEFF7E4AFEB863C6 /* JTCalendarWeekView.h */,
+				7A367C4B352A9FE0F3A7CDA0 /* JTCalendarWeekView.m */,
+				17EFC4CFDC6064CD280880CE /* JTCircleView.h */,
+				9D4373DD8006C163E20BD35F /* JTCircleView.m */,
+				6C06C5EBDE8A57ABBD4D2649 /* Support Files */,
+			);
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		6C06C5EBDE8A57ABBD4D2649 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4C39E5E7AFF28D7A6677E /* Pods-appPsiquiatra-JTCalendar.xcconfig */,
+				E97D72880722FC88B4D53930 /* Pods-appPsiquiatra-JTCalendar-Private.xcconfig */,
+				F50DD9D8BC79334E929221FE /* Pods-appPsiquiatra-JTCalendar-dummy.m */,
+				AD4737103F49A2323F7355C4 /* Pods-appPsiquiatra-JTCalendar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-appPsiquiatra-JTCalendar";
+			sourceTree = "<group>";
+		};
+		7913E78ECC8AC3F28CDAFAEF /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F7AC4D1AEA91A9D8E2EA5 /* AbstractActionSheetPicker.h */,
+				BFE7E47BC329E36C7155AB53 /* AbstractActionSheetPicker.m */,
+				C42F92D2F3DF071625A5DE56 /* ActionSheetCustomPicker.h */,
+				F65F013337FC3147CAD364F3 /* ActionSheetCustomPicker.m */,
+				7ACC2FBEB5E6C2033AF2B209 /* ActionSheetCustomPickerDelegate.h */,
+				5E5003E1AB1C167BCD55D95A /* ActionSheetDatePicker.h */,
+				903835DE560DFFE9F2F3B03E /* ActionSheetDatePicker.m */,
+				718D0D81F8FE3A72E4CDBF1B /* ActionSheetDistancePicker.h */,
+				E3E9FE6B608676E96AEE6726 /* ActionSheetDistancePicker.m */,
+				69C57A3C170A7FD0A9CA50A7 /* ActionSheetLocalePicker.h */,
+				F0D781D7B1BC4688F577C52C /* ActionSheetLocalePicker.m */,
+				20FA52A23014A295DB528530 /* ActionSheetPicker.h */,
+				3961C5574280F32D7350670F /* ActionSheetStringPicker.h */,
+				DF0E27D8B4ECF49F635E7ACD /* ActionSheetStringPicker.m */,
+				9ADB2718E28ED64667C2292F /* DistancePickerView.h */,
+				43B82EFF245C9EAFF4EB71DF /* DistancePickerView.m */,
+				5130847311382753AD323228 /* SWActionSheet.h */,
+				1A6883D88284B8EBBD5959B4 /* SWActionSheet.m */,
+				DF213F89A22E0AC741DA93C6 /* Support Files */,
+			);
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		8F1CAB72A7E20755BD666946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A1977C7BE79B8BC88A23C05 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7D6E9FF79CFA94A877C493E = {
+			isa = PBXGroup;
+			children = (
+				78738A4396473A40F2D3FFB8 /* Podfile */,
+				8F1CAB72A7E20755BD666946 /* Frameworks */,
+				DD1404CB8202C5F5429A4A12 /* Pods */,
+				5CBD2FFD4F770C3B23BD7310 /* Products */,
+				53F8D75732EA1255BC72C90E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1404CB8202C5F5429A4A12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7913E78ECC8AC3F28CDAFAEF /* ActionSheetPicker-3.0 */,
+				62391882DBBD8B73E8370966 /* JTCalendar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF213F89A22E0AC741DA93C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A55C661D0B178C58A17DDE /* Pods-appPsiquiatra-ActionSheetPicker-3.0.xcconfig */,
+				D3AF9CFF052E5F70C7A9B15B /* Pods-appPsiquiatra-ActionSheetPicker-3.0-Private.xcconfig */,
+				AF46ED2F9E6021C9460E53EE /* Pods-appPsiquiatra-ActionSheetPicker-3.0-dummy.m */,
+				C1F55F3D00BFBB68BFA2FFF6 /* Pods-appPsiquiatra-ActionSheetPicker-3.0-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-appPsiquiatra-ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		E6E63EC896B13F46B1AA3C4A /* Pods-appPsiquiatra */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5C55771A1E62CC4E541BD /* Pods-appPsiquiatra-acknowledgements.markdown */,
+				89E63581F6609DF00FFA9A4E /* Pods-appPsiquiatra-acknowledgements.plist */,
+				7332F15BD4E026E00C07EC4B /* Pods-appPsiquiatra-dummy.m */,
+				D5519EC0333412F68831C481 /* Pods-appPsiquiatra-environment.h */,
+				C3BA0CE481A58BE5155AD25F /* Pods-appPsiquiatra-resources.sh */,
+				08B5641160C6504AE0004C69 /* Pods-appPsiquiatra.debug.xcconfig */,
+				AFA0048AC393CF15335082C4 /* Pods-appPsiquiatra.release.xcconfig */,
+			);
+			name = "Pods-appPsiquiatra";
+			path = "Target Support Files/Pods-appPsiquiatra";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7D43765AF717F30B4CCAF83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2D3223D444186A4B52DCAB /* AbstractActionSheetPicker.h in Headers */,
+				3FAC49CA33324CDC2B400F7C /* ActionSheetCustomPicker.h in Headers */,
+				35C7D289B46689DDCCC0FE77 /* ActionSheetCustomPickerDelegate.h in Headers */,
+				BE9D5A76575BC318B61B862D /* ActionSheetDatePicker.h in Headers */,
+				DD1498EE791E868CBCD4C7A2 /* ActionSheetDistancePicker.h in Headers */,
+				250D4A9D0B0B1235867BE40C /* ActionSheetLocalePicker.h in Headers */,
+				9FF659FBAB701746EF1965D2 /* ActionSheetPicker.h in Headers */,
+				370D2B150490FF37C23E64B8 /* ActionSheetStringPicker.h in Headers */,
+				0A1BE2D4C825B486F4C3BE1D /* DistancePickerView.h in Headers */,
+				620398946C54E4807B836DFA /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B077A3E010E3C938B8000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C578ADECE984370FCB4385 /* JTCalendar.h in Headers */,
+				C598AB330BC1EE0989F61FDA /* JTCalendarAppearance.h in Headers */,
+				C74668337037DD81D955DC54 /* JTCalendarContentView.h in Headers */,
+				98B2080053A2AD9D64C51D4E /* JTCalendarDataCache.h in Headers */,
+				B5C5464C26481766A5920604 /* JTCalendarDayView.h in Headers */,
+				464E755C28EDCDF4CCBD4B2A /* JTCalendarMenuMonthView.h in Headers */,
+				5BC4541393C517679FA35CB7 /* JTCalendarMenuView.h in Headers */,
+				4E230D861F012110F04344BF /* JTCalendarMonthView.h in Headers */,
+				73681E58A2181295E15DC450 /* JTCalendarMonthWeekDaysView.h in Headers */,
+				A300075063145FD9D3B0ED3A /* JTCalendarViewDataSource.h in Headers */,
+				F72169607B4CAA05B587755B /* JTCalendarWeekView.h in Headers */,
+				F96D3D039110C526B8DCDD23 /* JTCircleView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FE2AF7A665F5F7B7B25866D /* Pods-appPsiquiatra-ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E71DF8D6297CD0C177B94B1 /* Build configuration list for PBXNativeTarget "Pods-appPsiquiatra-ActionSheetPicker-3.0" */;
+			buildPhases = (
+				BB22934A1B026B26D018D007 /* Sources */,
+				5E200E1EECCFDB9A161032CA /* Frameworks */,
+				B7D43765AF717F30B4CCAF83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-appPsiquiatra-ActionSheetPicker-3.0";
+			productName = "Pods-appPsiquiatra-ActionSheetPicker-3.0";
+			productReference = 1A0077F18244098E0107A83F /* libPods-appPsiquiatra-ActionSheetPicker-3.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90579520506F6E3E3904848A /* Pods-appPsiquiatra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F539BCAA3ADAD15FA4CA89B /* Build configuration list for PBXNativeTarget "Pods-appPsiquiatra" */;
+			buildPhases = (
+				4566A0B524E1EB6D24B20097 /* Sources */,
+				C0D6020ECA9BEC6AC529EA62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34A37CF00C324640C8D7216 /* PBXTargetDependency */,
+				DA18BD1BB3A13CDCDE27C396 /* PBXTargetDependency */,
+			);
+			name = "Pods-appPsiquiatra";
+			productName = "Pods-appPsiquiatra";
+			productReference = 7D8EAF081B2A9A3C3AC44B74 /* libPods-appPsiquiatra.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9DC07044071B54EC06BC815 /* Pods-appPsiquiatra-JTCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7E645AF71251B189ED5D71 /* Build configuration list for PBXNativeTarget "Pods-appPsiquiatra-JTCalendar" */;
+			buildPhases = (
+				39AB3F3428431371461A13BB /* Sources */,
+				7A88AA6C97120B180B240684 /* Frameworks */,
+				E61B077A3E010E3C938B8000 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-appPsiquiatra-JTCalendar";
+			productName = "Pods-appPsiquiatra-JTCalendar";
+			productReference = 155B502D23C6E4AEA18E7204 /* libPods-appPsiquiatra-JTCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9176339BB0842565185250E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 86FF708D9C74088C158C61BA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7D6E9FF79CFA94A877C493E;
+			productRefGroup = 5CBD2FFD4F770C3B23BD7310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90579520506F6E3E3904848A /* Pods-appPsiquiatra */,
+				3FE2AF7A665F5F7B7B25866D /* Pods-appPsiquiatra-ActionSheetPicker-3.0 */,
+				C9DC07044071B54EC06BC815 /* Pods-appPsiquiatra-JTCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AB3F3428431371461A13BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DDB5661911B040C0556873 /* JTCalendar.m in Sources */,
+				F75F3C9F0C193D351E93AE3A /* JTCalendarAppearance.m in Sources */,
+				BB41BDA5F825A873412ADF71 /* JTCalendarContentView.m in Sources */,
+				3A4B17E2CE720E54BC440082 /* JTCalendarDataCache.m in Sources */,
+				0954133B7B6BEFFFE5A76DDB /* JTCalendarDayView.m in Sources */,
+				14BF56C213233A97DA556E87 /* JTCalendarMenuMonthView.m in Sources */,
+				275099608A098F045C1E8961 /* JTCalendarMenuView.m in Sources */,
+				4309087F0DDE558DE04EB0BC /* JTCalendarMonthView.m in Sources */,
+				C9E29FA917405E6F1342E435 /* JTCalendarMonthWeekDaysView.m in Sources */,
+				644ABA2D572D15B1F7189333 /* JTCalendarWeekView.m in Sources */,
+				94D8AE3631622F35E1C606C3 /* JTCircleView.m in Sources */,
+				B6D51C964DD32E038B4E828E /* Pods-appPsiquiatra-JTCalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4566A0B524E1EB6D24B20097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648DBBCC22A2C38C8F4D7B0B /* Pods-appPsiquiatra-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB22934A1B026B26D018D007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064D957E9B0A7F05A65BCDC8 /* AbstractActionSheetPicker.m in Sources */,
+				DF50AC6D305D8AFC322B7B46 /* ActionSheetCustomPicker.m in Sources */,
+				AEF52D89EBC84DD47C6DFF68 /* ActionSheetDatePicker.m in Sources */,
+				3E338B4ACA5A1D6B8DBC6487 /* ActionSheetDistancePicker.m in Sources */,
+				AA2623C056B6EA855891D391 /* ActionSheetLocalePicker.m in Sources */,
+				9C19F54FFF8E912EB0DD7BC3 /* ActionSheetStringPicker.m in Sources */,
+				78D308795BC93AF6A6DFAC6C /* DistancePickerView.m in Sources */,
+				13A37C65DDAF769AB1115343 /* Pods-appPsiquiatra-ActionSheetPicker-3.0-dummy.m in Sources */,
+				636D59A2E51D9F315099C480 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34A37CF00C324640C8D7216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-appPsiquiatra-ActionSheetPicker-3.0";
+			target = 3FE2AF7A665F5F7B7B25866D /* Pods-appPsiquiatra-ActionSheetPicker-3.0 */;
+			targetProxy = 24CC64269CA55DB18EED6738 /* PBXContainerItemProxy */;
+		};
+		DA18BD1BB3A13CDCDE27C396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-appPsiquiatra-JTCalendar";
+			target = C9DC07044071B54EC06BC815 /* Pods-appPsiquiatra-JTCalendar */;
+			targetProxy = 9A7B0E1B4E8A21EA8D63F576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		547B8F05758F776B7649F043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7558124144EA63A5FFC7D9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97D72880722FC88B4D53930 /* Pods-appPsiquiatra-JTCalendar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-appPsiquiatra-JTCalendar/Pods-appPsiquiatra-JTCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B32E40F1B20088C6A2024BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B3E05457036C7CAA2BBFA4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B5641160C6504AE0004C69 /* Pods-appPsiquiatra.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8BB087952599800E1BE856A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA0048AC393CF15335082C4 /* Pods-appPsiquiatra.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD7A8992DA11078B4DB04BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AF9CFF052E5F70C7A9B15B /* Pods-appPsiquiatra-ActionSheetPicker-3.0-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-appPsiquiatra-ActionSheetPicker-3.0/Pods-appPsiquiatra-ActionSheetPicker-3.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EEF8EA7A74072A1991D7B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97D72880722FC88B4D53930 /* Pods-appPsiquiatra-JTCalendar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-appPsiquiatra-JTCalendar/Pods-appPsiquiatra-JTCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8B72C3B8918027450DFD8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AF9CFF052E5F70C7A9B15B /* Pods-appPsiquiatra-ActionSheetPicker-3.0-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-appPsiquiatra-ActionSheetPicker-3.0/Pods-appPsiquiatra-ActionSheetPicker-3.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E71DF8D6297CD0C177B94B1 /* Build configuration list for PBXNativeTarget "Pods-appPsiquiatra-ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B72C3B8918027450DFD8C4 /* Debug */,
+				DD7A8992DA11078B4DB04BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FF708D9C74088C158C61BA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32E40F1B20088C6A2024BED /* Debug */,
+				547B8F05758F776B7649F043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F539BCAA3ADAD15FA4CA89B /* Build configuration list for PBXNativeTarget "Pods-appPsiquiatra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E05457036C7CAA2BBFA4CD /* Debug */,
+				B8BB087952599800E1BE856A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7E645AF71251B189ED5D71 /* Build configuration list for PBXNativeTarget "Pods-appPsiquiatra-JTCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7558124144EA63A5FFC7D9A8 /* Debug */,
+				EEF8EA7A74072A1991D7B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9176339BB0842565185250E5 /* Project object */;
+}
