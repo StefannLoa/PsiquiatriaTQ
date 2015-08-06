@@ -11,10 +11,6 @@
 
 @interface EfectosTableViewController : UITableViewController
 
-@property NSMutableArray *arrayEfectos;
-
-@property EfectosSecundatios *efecto;
-
 - (IBAction)addItemToList:(UIBarButtonItem *)sender;
 
 @end

@@ -11,9 +11,12 @@
 @interface Log_InViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>{
     
     IBOutlet UITableView *loginTable;
-    
 }
+    //Vars
+    //Outlets
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *acti;
 
-
+    //Actions
+- (IBAction)Login:(id)sender;
 
 @end

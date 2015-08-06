@@ -14,11 +14,11 @@
     
     IBOutlet UITableView *quoteDatas;
 }
-
+    // Objetos del calendario.
 @property (weak, nonatomic) IBOutlet JTCalendarMenuView *calendarMenuView;
 @property (weak, nonatomic) IBOutlet JTCalendarContentView *calendarContentView;
 @property (strong, nonatomic) JTCalendar *calendar;
-
+    // Otros objetos.
 @property Quotes *quote;
 @property (strong, nonatomic) NSMutableArray *objects;
 

@@ -7,16 +7,22 @@
 //
 
 #import "Log_InViewController.h"
+#import <Parse/Parse.h>
 
-@interface Log_InViewController ()
+@implementation Log_InViewController{
 
-@end
+    NSString * mail;
+    NSString * passwd;
+}
 
-@implementation Log_InViewController
+    //Syntetize
+@synthesize acti;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [acti startAnimating];
+    acti.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,10 +30,34 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:YES];
+    [acti stopAnimating];
+    /*
+        Parse: Verificamos si hay una sesion abierta de un usuario.
+     */
+    PFUser *user = [PFUser currentUser];
+#ifdef DEBUG
+    NSLog(@"= %@", user.username);
+#endif
+    if (user.isDataAvailable) {
+        acti.hidden = NO;
+        [acti startAnimating];
+            //Pasamos a la siguiente vista.
+        [self shouldPerformSegueWithIdentifier:@"yes" sender:self];
+        [self performSegueWithIdentifier:@"segueLogin" sender:self];
+    }
+}
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [acti stopAnimating];
+    acti.hidden = YES;
+}
+
+-(BOOL) textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
-    return NO;
+    return YES;
 }
 
 //Table Methods
@@ -43,28 +73,76 @@
 -(UITableViewCell *) tableView:(UITableView*) tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     UITableViewCell *cell = [loginTable dequeueReusableCellWithIdentifier:@"ID"];
-    
     if (indexPath.row != 0) {
-        
         cell = [loginTable dequeueReusableCellWithIdentifier:@"Passw"];
-
     }
-    
-    // MORE CODE.....
-    
-    
+    cell.backgroundColor = [UIColor clearColor];
     
     return cell;
 }
 
-/*
-#pragma mark - Navigation
+- (IBAction)Login:(id)sender {
+    UITextField *mailTextField = (UITextField *)[self.view viewWithTag:5];
+    UITextField *passwdTextField = (UITextField *)[self.view viewWithTag:6];
+    mail = mailTextField.text;
+    passwd = passwdTextField.text;
+    if (mail == nil) {
+        mail = @"";
+    }
+    if( passwd == nil){
+        passwd = @"";
+    }
+    /*
+        Parse: Logueamos el usuario despues de haber validado los campos.
+    */
+    if(mail != nil && ![mail isEqual: @""] && passwd != nil && ![passwd  isEqual: @""]) {
+        acti.hidden = NO;
+        [acti startAnimating];
+            //Logueamos con parse y verificamos
+        [PFUser logInWithUsernameInBackground:mail password:passwd block:^(PFUser *user, NSError *error) {
+            if (user) {
+                    // Do stuff after successful login.
+                UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Bienvenido!" message:nil preferredStyle:UIAlertControllerStyleAlert];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+                UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Ok!" style:UIAlertActionStyleDefault
+                                                           handler:^(UIAlertAction *action){
+                                                               mailTextField.text = @"";
+                                                               passwdTextField.text = @"";
+                                                               [self performSegueWithIdentifier:@"segueLogin" sender:self];
+                                                           }];
+                [alert addAction:ok];
+                    //Presentamos la alerta
+                [self presentViewController:alert animated:YES completion:nil];
+            } else {
+                    // The login failed. Check error to see why.
+#ifndef DEBUG
+                NSLog(@"Error= %@", error.localizedDescription);
+#endif
+
+                UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error!" message:@"No hemos podido iniciar la sesión. Por favor prueba otra vez." preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Ok!" style:UIAlertActionStyleDefault handler:nil];
+                [alert addAction:ok];
+                    //Presentamos la alerta
+                [self presentViewController:alert animated:YES completion:nil];
+            }
+            [acti stopAnimating];
+            acti.hidden = YES;
+        }];
+    }else{
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Falta!" message:@"No has colocado alguno de los datos. Por favor añadelos." preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"Ok!" style:UIAlertActionStyleDefault handler:nil];
+        [alert addAction:ok];
+            //Presentamos la alerta
+        [self presentViewController:alert animated:YES completion:nil];
+    }
 }
-*/
+
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+    BOOL result = NO;
+    if ([identifier isEqual: @"yes"]) {
+        result = YES;
+    }
+    return result;
+}
 
 @end

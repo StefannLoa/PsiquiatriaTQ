@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-appPsiquiatra-ActionSheetPicker-3.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-appPsiquiatra-JTCalendar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05A017EC0706E194DD0A234D</key>
+		<key>3FE2AF7A665F5F7B7B25866D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6BCC8A93F28691A8FAC5758</key>
+		<key>90579520506F6E3E3904848A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9DC07044071B54EC06BC815</key>
 		<dict>
 			<key>primary</key>
 			<true/>

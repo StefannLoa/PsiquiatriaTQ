@@ -1,0 +1,117 @@
+
+/* Class = "UINavigationItem"; title = "Perfil"; ObjectID = "154-z8-itO"; */
+"154-z8-itO.title" = "Perfil";
+
+/* Class = "UINavigationItem"; title = "Mes"; ObjectID = "15y-Ib-uHH"; */
+"15y-Ib-uHH.title" = "Mes";
+
+/* Class = "UITabBarItem"; title = "Citas"; ObjectID = "40W-Ck-NLv"; */
+"40W-Ck-NLv.title" = "Citas";
+
+/* Class = "UILabel"; text = "Horas"; ObjectID = "7eM-nq-X6v"; */
+"7eM-nq-X6v.text" = "Horas";
+
+/* Class = "UILabel"; text = "Respuestas"; ObjectID = "9fw-ip-bnL"; */
+"9fw-ip-bnL.text" = "Respuestas";
+
+/* Class = "UINavigationItem"; title = "Citas"; ObjectID = "GGS-iw-9JD"; */
+"GGS-iw-9JD.title" = "Citas";
+
+/* Class = "UIButton"; normalTitle = "Cerrar Sesión"; ObjectID = "GJM-Hi-yY1"; */
+"GJM-Hi-yY1.normalTitle" = "Cerrar Sesión";
+
+/* Class = "UILabel"; text = "Cita Dr."; ObjectID = "KR9-ib-WQg"; */
+"KR9-ib-WQg.text" = "Cita Dr.";
+
+/* Class = "UITabBarItem"; title = "Mes"; ObjectID = "OKt-Lf-g5G"; */
+"OKt-Lf-g5G.title" = "Mes";
+
+/* Class = "UIButton"; normalTitle = "Ingresar"; ObjectID = "QB3-p5-Bhw"; */
+"QB3-p5-Bhw.normalTitle" = "Ingresar";
+
+/* Class = "UILabel"; text = "Nombre Medicamento"; ObjectID = "UN7-Ac-Dit"; */
+"UN7-Ac-Dit.text" = "Nombre Medicamento";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "WvL-Cy-ugn"; */
+"WvL-Cy-ugn.placeholder" = "Contraseña";
+
+/* Class = "UITextField"; placeholder = "Correo"; ObjectID = "Y92-uz-cUM"; */
+"Y92-uz-cUM.placeholder" = "Correo";
+
+/* Class = "UILabel"; text = "Preguntas"; ObjectID = "YJ1-99-PR4"; */
+"YJ1-99-PR4.text" = "Preguntas";
+
+/* Class = "UINavigationItem"; title = "Efectos Secundarios"; ObjectID = "Z4v-NQ-0qi"; */
+"Z4v-NQ-0qi.title" = "Efectos Secundarios";
+
+/* Class = "UITabBarItem"; title = "Perfil"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Perfil";
+
+/* Class = "UILabel"; text = "Respuestas"; ObjectID = "bt6-lA-VAN"; */
+"bt6-lA-VAN.text" = "Respuestas";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "bus-eH-NmV"; */
+"bus-eH-NmV.normalTitle" = "Enviar";
+
+/* Class = "UITabBarItem"; title = "Dia"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Dia";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "cz4-ww-mAJ"; */
+"cz4-ww-mAJ.text" = "Title";
+
+/* Class = "UILabel"; text = "9:00 am"; ObjectID = "dk0-aP-dx0"; */
+"dk0-aP-dx0.text" = "9:00 am";
+
+/* Class = "UITabBarItem"; title = "Red de Apoyo"; ObjectID = "dqC-7C-SmG"; */
+"dqC-7C-SmG.title" = "Red de Apoyo";
+
+/* Class = "UIButton"; normalTitle = "Formulario PHQ-9"; ObjectID = "epn-mu-VPl"; */
+"epn-mu-VPl.normalTitle" = "Formulario PHQ-9";
+
+/* Class = "UILabel"; text = "Datos"; ObjectID = "fFc-If-TRd"; */
+"fFc-If-TRd.text" = "Datos";
+
+/* Class = "UILabel"; text = "App Psiquiatría"; ObjectID = "g3f-ur-IDK"; */
+"g3f-ur-IDK.text" = "App Psiquiatría";
+
+/* Class = "UIButton"; normalTitle = "Enviar"; ObjectID = "ie2-47-ayR"; */
+"ie2-47-ayR.normalTitle" = "Enviar";
+
+/* Class = "UIButton"; normalTitle = "Test Montgomery"; ObjectID = "jP2-Pd-Pms"; */
+"jP2-Pd-Pms.normalTitle" = "Test Montgomery";
+
+/* Class = "UINavigationItem"; title = "Dia"; ObjectID = "kaz-MI-Cvk"; */
+"kaz-MI-Cvk.title" = "Dia";
+
+/* Class = "UINavigationItem"; title = "Test Montgomery"; ObjectID = "mEG-lv-5fl"; */
+"mEG-lv-5fl.title" = "Test Montgomery";
+
+/* Class = "UINavigationItem"; title = "Formulario PHQ-9"; ObjectID = "meK-AF-t48"; */
+"meK-AF-t48.title" = "Formulario PHQ-9";
+
+/* Class = "UIButton"; normalTitle = "Hoy"; ObjectID = "nDw-pH-Spe"; */
+"nDw-pH-Spe.normalTitle" = "Hoy";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "na1-l3-EcI"; */
+"na1-l3-EcI.text" = "3";
+
+/* Class = "UILabel"; text = "Estado de Animo"; ObjectID = "net-8K-XAC"; */
+"net-8K-XAC.text" = "Estado de Animo";
+
+/* Class = "UIBarButtonItem"; title = "Atras"; ObjectID = "oRz-fu-4Il"; */
+"oRz-fu-4Il.title" = "Atras";
+
+/* Class = "UILabel"; text = "Preguntas"; ObjectID = "q7I-Zb-092"; */
+"q7I-Zb-092.text" = "Preguntas";
+
+/* Class = "UIViewController"; title = "Test Montgomery"; ObjectID = "uE0-Yp-jq5"; */
+"uE0-Yp-jq5.title" = "Test Montgomery";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vee-u3-xad"; */
+"vee-u3-xad.text" = "Label";
+
+/* Class = "UILabel"; text = "Medicación:"; ObjectID = "yke-pS-byF"; */
+"yke-pS-byF.text" = "Medicación:";
+
+/* Class = "UILabel"; text = "Nombres de Efectos"; ObjectID = "zX7-J7-8y0"; */
+"zX7-J7-8y0.text" = "Nombres de Efectos";

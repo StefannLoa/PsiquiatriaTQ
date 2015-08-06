@@ -7,15 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ActionSheetpicker.h"
 
 @interface PHQ9ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
+    
     IBOutlet UITableView *tableQuiz;
 }
 
+    //Datas for the table.
 @property NSArray * phq9;
 @property NSArray * respuestas;
-
-//@property (strong, nonatomic) IBOutlet UITableView *tableQuiz;
+@property NSMutableArray * selectedRequest;
+@property NSMutableArray * selectedColor;
+    //@property NSMutableArray * selectedImage;
 
 - (IBAction)sendDatasPHQ:(UIButton *)sender;
 

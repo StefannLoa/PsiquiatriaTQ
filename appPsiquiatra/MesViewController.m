@@ -5,109 +5,121 @@
 //  Created by Igloo-Lab(IMac1) on 23/02/15.
 //  Copyright (c) 2015 Igloo Lab. All rights reserved.
 //
-
 #import "MesViewController.h"
-
+#import <Parse/Parse.h>
 @interface MesViewController (){
-    
+    NSMutableArray *objects;
     NSMutableDictionary *eventsByDate;
+    PFUser *user;
+    NSMutableArray * arrayObj;
+        //fecha
+    NSString * fech;
+    NSString * hour;
 }
-
 @end
 
 @implementation MesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    //Parte del calendario del año.
+        // Do any additional setup after loading the view.
+    objects = [[NSMutableArray alloc] init];
+/*
+    Parse - LLamando los datos del dia establecido.
+*/
+        //Declaracion de variables.
+    arrayObj = [NSMutableArray array];
+    PFQuery *query = [PFQuery queryWithClassName:@"Citas"];
+        //Obtenemos al usuario-paciente logueado.
+    PFObject *DataPac = [self getDataPaciente];
+        //Realizamos la consulta.
+    [query whereKey:@"Paciente_Id" equalTo:DataPac];
+    [query orderByAscending:@"FechaCita"];
+        //Consulta sincronica (Se evita error).
+    NSArray *queryObj = [query findObjects];
+    if (!queryObj) {
+        NSLog(@"The getFirstObject request failed.");
+    } else {
+            // The find succeeded.
+        for (int i = 0; i < [queryObj count]; i++) {
+            [arrayObj addObject:queryObj[i][@"FechaCita"]];
+        }
+    }
+        //Obtenemos las citas de hoy.
+    NSString *key = [[self dateFormatter] stringFromDate:[NSDate date]];
+    for (int i =0; i < arrayObj.count; i++) {
+        fech = [[self dateFormatter] stringFromDate:arrayObj[i]];
+        if ([fech isEqualToString:key]) {
+            hour = [[self hourFormatter] stringFromDate:arrayObj[i]];
+            NSArray *dates = [NSArray arrayWithObjects:fech, hour, nil];
+            [objects insertObject:dates atIndex:0];
+        }
+    }
+        //Declaración del calendario del año.
     self.calendar = [JTCalendar new];
-
     self.calendar.calendarAppearance.calendar.firstWeekday = 2; // Sunday == 1, Saturday == 7
-    //Apariencia del mes.
+        //Apariencia del mes.
     self.calendar.calendarAppearance.ratioContentMenu = 2.;
     self.calendar.calendarAppearance.menuMonthTextColor = [UIColor colorWithRed:0.04 green:0.45 blue:1 alpha:1];
     self.calendar.calendarAppearance.menuMonthTextFont = [UIFont fontWithName:@"HelveticaNeue-Medium" size:18.0];
- 
-    //Apariencia del dia.
+        //Apariencia del dia.
     self.calendar.calendarAppearance.dayCircleColorSelected = [UIColor colorWithRed:0.08 green:0.49 blue:0.98 alpha:1];
     self.calendar.calendarAppearance.dayCircleRatio = 1.1;
     self.calendar.calendarAppearance.dayTextFont = [UIFont fontWithName:@"HelveticaNeue-UltraLight" size:16.0];
-    
-    //Apariencia del evento
+        //Apariencia del evento
     self.calendar.calendarAppearance.dayDotColor = [UIColor redColor];
     self.calendar.calendarAppearance.dayDotColorOtherMonth = [UIColor colorWithRed:0.08 green:0.49 blue:0.98 alpha:1];
     self.calendar.calendarAppearance.dayDotColorToday = [UIColor greenColor];
-    
-    //Datos para cambiar defaults del calendar.
+        //Datos para cambiar defaults del calendar.
     [self.calendar setMenuMonthsView:self.calendarMenuView];
     [self.calendar setContentView:self.calendarContentView];
-    
-    [self createRandomEvents];
+        //Creamos eventos.
+    [self createEvents];
     [self.calendar setDataSource:self];
-    
     [self.calendar setCurrentDate:[NSDate date]];
-    //recargamos la tabla de los dias.
-    _objects = [[NSMutableArray alloc] init];
+        //[datasTableView reloadData];
+}
 
-    NSDate *date = [[NSDate alloc]init];
-
-    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"dd-MM-yyyy"];
-
-    NSString *fech = [dateFormat stringFromDate:date];
-    [_objects insertObject:fech atIndex:0];
-
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self.calendar reloadData]; // Must be call in viewDidAppear
+    [datasTableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+#ifdef DEBUG
+    NSLog(@"Danger: Memory");
+#endif
 }
 
 #pragma mark Calendar methods
 
-- (void)viewDidAppear:(BOOL)animated{
-    
-    [super viewDidAppear:animated];
-    [self.calendar reloadData]; // Must be call in viewDidAppear
-}
-
 - (BOOL)calendarHaveEvent:(JTCalendar *)calendar date:(NSDate *)date{
-    
     NSString *key = [[self dateFormatter] stringFromDate:date];
+        //Verificamos si el evento existe.
     if(eventsByDate[key] && [eventsByDate[key] count] > 0){
         return YES;
     }
-    
     return NO;
 }
 
 - (void)calendarDidDateSelected:(JTCalendar *)calendar date:(NSDate *)date{
-    
-    NSString *fecha = @"Fecha: ";
-    
-    //Formateamos la fecha para obtener el dia.
-    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"dd-MM-yyyy"];
-    
-    //Agregamos el dia en string al string anterior.
-    fecha = [fecha stringByAppendingString:[dateFormat stringFromDate:date]];
-    
-    //Verificamos los eventos.
+    [objects removeAllObjects];
+        //Verificamos los eventos.
     NSString *key = [[self dateFormatter] stringFromDate:date];
-    NSArray *events = eventsByDate[key];
-    
-    //Agregamos la cuenta de eventos.
-    fecha = [fecha stringByAppendingFormat:@" - %ld eventos.",(unsigned long)[events count]];
-    
-    //Agregamos la fecha al array de objetos de la lista.
-    [_objects insertObject:fecha atIndex:0];
-    
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [datasTableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-    
+    for (int i =0; i < arrayObj.count; i++) {
+        fech = [[self dateFormatter] stringFromDate:arrayObj[i]];
+        if ([fech isEqualToString:key]) {
+            fech = @"Cita Médica";
+            hour = [[self hourFormatter] stringFromDate:arrayObj[i]];
+            NSArray *dates = [NSArray arrayWithObjects:fech, hour, nil];
+            [objects insertObject:dates atIndex:0];
+
+        }
+    }
+    [datasTableView reloadData];
 }
 
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation{
@@ -118,81 +130,90 @@
 #pragma mark - Table methods
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
-    return _objects.count;
-    
+    return objects.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     UITableViewCell *cell = [datasTableView dequeueReusableCellWithIdentifier:@"Cell" ];
-    
-    // En el label de la celda se .
-    cell.textLabel.text = _objects[indexPath.row];
-    
-    // Y añadimos la etiqueta al contenido de la vista.
+    // En el label de la celda.
+    UILabel *hora = (UILabel *)[tableView viewWithTag:5];
+    UILabel *data = (UILabel *)[tableView viewWithTag:6];
+
+    NSString *date = [objects objectAtIndex:indexPath.row][0];
+    NSString *hor = [objects objectAtIndex:indexPath.row][1];
+
+    data.text = date;
+    hora.text = hor;
     return cell;
-    
 }
 
 #pragma mark - Buttons callback
 
 - (IBAction)GoTodayTouch{
+        //Borramos la data.
+    [objects removeAllObjects];
+        //Empezamos a buscar los eventos del dia de hoy.
+    NSString *key = [[self dateFormatter] stringFromDate:[NSDate date]];
+    for (int i =0; i < arrayObj.count; i++) {
+        fech = [[self dateFormatter] stringFromDate:arrayObj[i]];
+        if ([fech isEqualToString:key]) {
+            hour = [[self hourFormatter] stringFromDate:arrayObj[i]];
 
-    NSDate *date = [[NSDate alloc]init];
-    
-    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"dd-MM-yyyy"];
-    
-    NSString *fech = [dateFormat stringFromDate:date];
-    [_objects insertObject:fech atIndex:0];
-    
-    [self.calendar setCurrentDate:date];
-    
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [datasTableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+            NSArray *dates = [NSArray arrayWithObjects:fech, hour, nil];
+            [objects insertObject:dates atIndex:0];
+        }
+    }
+    [self.calendar setCurrentDate:[NSDate date]];
+    [datasTableView reloadData];
+        //NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+        //[datasTableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
-- (NSDateFormatter *)dateFormatter
-{
+- (NSDateFormatter *)dateFormatter{
     static NSDateFormatter *dateFormatter;
     if(!dateFormatter){
         dateFormatter = [NSDateFormatter new];
         dateFormatter.dateFormat = @"dd-MM-yyyy";
     }
-    
     return dateFormatter;
 }
 
+- (NSDateFormatter *)hourFormatter{
+    static NSDateFormatter *dateFormatter;
+    if(!dateFormatter){
+        dateFormatter = [NSDateFormatter new];
+        dateFormatter.timeStyle = NSDateFormatterShortStyle;
+        dateFormatter.dateFormat = @"HH:mm";
+    }
+    return dateFormatter;
+}
 
-- (void)createRandomEvents
-{
+- (void)createEvents{
     eventsByDate = [NSMutableDictionary new];
-    
-    for(int i = 0; i < 30; ++i){
-        // Generate 30 random dates between now and 60 days later
-        NSDate *randomDate = [NSDate dateWithTimeInterval:(rand() % (3600 * 24 * 60)) sinceDate:[NSDate date]];
-        
+    for(int i = 0; i < arrayObj.count; ++i){
         // Use the date as key for eventsByDate
-        NSString *key = [[self dateFormatter] stringFromDate:randomDate];
-        
+        NSString *key = [[self dateFormatter] stringFromDate:arrayObj[i]];
         if(!eventsByDate[key]){
             eventsByDate[key] = [NSMutableArray new];
         }
-        
-        [eventsByDate[key] addObject:randomDate];
+        [eventsByDate[key] addObject:arrayObj[i]];
     }
 }
 
+#pragma mark - Parse Methods
 
+-(PFObject *) getDataPaciente{
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
+     Parse - Implementamos la busqueda de los datos del paciente.
 */
+    PFQuery *query = [PFQuery queryWithClassName:@"Paciente"];
+        //Obtenemos al usuario logueado.
+    user = [PFUser currentUser];
+    [query whereKey:@"NumeroDocumento" equalTo:user[@"NumeroDocumento"]];
+        //Consulta sincronica (Se evita error).
+    PFObject *object = [query getFirstObject];
+    return object;
+}
 
 @end

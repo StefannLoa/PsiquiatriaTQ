@@ -1,10 +1,13 @@
 PODS:
+  - ActionSheetPicker-3.0 (1.5.0)
   - JTCalendar (1.1.17)
 
 DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 1.5)
   - JTCalendar (~> 1.1)
 
 SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 30565e92a38b23f06f4a3fce113bd92f0e44dd4d
   JTCalendar: 326a2223ecd07fc0ec2648e0df4d020b66983444
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.0

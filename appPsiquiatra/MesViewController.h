@@ -18,6 +18,4 @@
 @property (weak, nonatomic) IBOutlet JTCalendarContentView *calendarContentView;
 @property (strong, nonatomic) JTCalendar *calendar;
 
-@property (strong, nonatomic) NSMutableArray *objects;
-
 @end

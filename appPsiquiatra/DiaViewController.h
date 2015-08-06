@@ -9,15 +9,17 @@
 #import <UIKit/UIKit.h>
 #import <JTCalendar.h>
 
-@interface DiaViewController : UIViewController <JTCalendarDataSource ,UITableViewDelegate, UITableViewDataSource>{
-    
+@interface DiaViewController : UIViewController <JTCalendarDataSource ,UITableViewDelegate, UITableViewDataSource, UITabBarDelegate, UITabBarControllerDelegate>{
+
     IBOutlet UITableView *tableEfects;
 }
 
-//@property (strong, nonatomic) IBOutlet UITableView *tableEfects;
+@property (strong, nonatomic) IBOutlet UITableView *tableMedics;
 
 @property (strong, nonatomic) IBOutlet JTCalendarContentView *content;
 @property JTCalendar *calendar;
+
+@property NSMutableArray *medicamentos;
 
 @end
 
