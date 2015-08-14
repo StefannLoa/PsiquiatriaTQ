@@ -13,16 +13,16 @@
     PFObject *paciente;
     NSMutableArray *response;
     int total;
+    bool error;
 }
 @end
 
 @implementation PHQ9ViewController 
 
-bool error;
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    response = [NSMutableArray array];
     total = 0;
     //Array de las preguntas y respuestas
     _phq9 = @[@"¿Poco interés o agrado al hacer cosas?",
@@ -92,15 +92,17 @@ bool error;
     UIImage *imgView = [UIImage imageNamed:@"2.png"];
         //Creamos el action del picker.
     [ActionSheetStringPicker
-     showPickerWithTitle:@"Seleccionar"
+     showPickerWithTitle:@"Seleccionar:"
      rows:_respuestas
      initialSelection:0
      doneBlock:^(ActionSheetStringPicker *picker, NSInteger selectedIndex, id selectedValue) {
          //NSLog(@"Picker: %@", picker);
          //NSLog(@"Selected Index: %ld", (long)selectedIndex);
          respuestas.text = selectedValue;
-         [response addObject:[NSString stringWithFormat:@"%@",selectedValue]];
-         total = total + (int)selectedValue;
+
+         [response addObject:[NSNumber numberWithInteger:selectedIndex]];
+         total += (int)selectedIndex;
+
          [_selectedRequest replaceObjectAtIndex:indexPath.row withObject:selectedValue];
          respuestas.textColor = [UIColor colorWithRed:0.27 green:0.88 blue:0.02 alpha:1];
          [_selectedColor replaceObjectAtIndex:indexPath.row withObject:respuestas.textColor];
@@ -171,17 +173,24 @@ bool error;
                                     cancelButtonTitle:nil
                                     otherButtonTitles:@"OK", nil];
 /*
-    Parse - 
+    Parse - Contamos las respuestas y guardamos los datos.
  */
         paciente = [self getDataPaciente];
-        NSString *preg = @"Pregunta";
         NSNumber *numero = [NSNumber numberWithInt: total];
+
         PFObject *data = [PFObject objectWithClassName:@"FormularioPHQ"];
         data[@"Paciente_Form"] = paciente;
-        for (int i = 0; i < [response count]; i++) {
-            data[[preg stringByAppendingFormat:@"%d",i]] = response[i];
-        }
+        data[@"Pregunta1"] = response[0];
+        data[@"Pregunta2"] = response[1];
+        data[@"Pregunta3"] = response[2];
+        data[@"Pregunta4"] = response[3];
+        data[@"Pregunta5"] = response[4];
+        data[@"Pregunta6"] = response[5];
+        data[@"Pregunta7"] = response[6];
+        data[@"Pregunta8"] = response[7];
+        data[@"Pregunta9"] = response[8];
         data[@"TotalRespuestas"] = numero;
+
         [data saveEventually];
             //Mostramos el label.
         [alertEfect show];
@@ -201,7 +210,5 @@ bool error;
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     [self.navigationController popViewControllerAnimated:YES];
 }
-
-#pragma mark - Picker Methods
 
 @end

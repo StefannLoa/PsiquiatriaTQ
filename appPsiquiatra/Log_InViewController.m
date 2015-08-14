@@ -41,6 +41,7 @@
     NSLog(@"= %@", user.username);
 #endif
     if (user.isDataAvailable) {
+            //[PFUser logOut];
         acti.hidden = NO;
         [acti startAnimating];
             //Pasamos a la siguiente vista.

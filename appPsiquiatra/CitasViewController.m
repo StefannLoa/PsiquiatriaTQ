@@ -87,6 +87,8 @@
     [self.calendar repositionViews];
 }
 
+#pragma mark Calendar methods
+
 - (BOOL)calendarHaveEvent:(JTCalendar *)calendar date:(NSDate *)date{
     return NO;
 }
@@ -146,7 +148,6 @@
     
 }
 
-#pragma mark Calendar methods
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     

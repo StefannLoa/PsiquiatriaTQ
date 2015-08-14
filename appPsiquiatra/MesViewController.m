@@ -23,12 +23,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
         // Do any additional setup after loading the view.
-    objects = [[NSMutableArray alloc] init];
-/*
-    Parse - LLamando los datos del dia establecido.
-*/
         //Declaracion de variables.
     arrayObj = [NSMutableArray array];
+    objects = [NSMutableArray array];
+/*
+        Parse - LLamando los datos del dia establecido.
+*/
     PFQuery *query = [PFQuery queryWithClassName:@"Citas"];
         //Obtenemos al usuario-paciente logueado.
     PFObject *DataPac = [self getDataPaciente];
@@ -48,8 +48,10 @@
         //Obtenemos las citas de hoy.
     NSString *key = [[self dateFormatter] stringFromDate:[NSDate date]];
     for (int i =0; i < arrayObj.count; i++) {
+            //
         fech = [[self dateFormatter] stringFromDate:arrayObj[i]];
         if ([fech isEqualToString:key]) {
+                //
             hour = [[self hourFormatter] stringFromDate:arrayObj[i]];
             NSArray *dates = [NSArray arrayWithObjects:fech, hour, nil];
             [objects insertObject:dates atIndex:0];
@@ -81,7 +83,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
+    [super viewDidAppear:NO];
     [self.calendar reloadData]; // Must be call in viewDidAppear
     [datasTableView reloadData];
 }
@@ -184,7 +186,7 @@
     if(!dateFormatter){
         dateFormatter = [NSDateFormatter new];
         dateFormatter.timeStyle = NSDateFormatterShortStyle;
-        dateFormatter.dateFormat = @"HH:mm";
+        dateFormatter.dateFormat = @"HH:mm a";
     }
     return dateFormatter;
 }
@@ -205,7 +207,7 @@
 
 -(PFObject *) getDataPaciente{
 /*
-     Parse - Implementamos la busqueda de los datos del paciente.
+        Parse - Implementamos la busqueda de los datos del paciente.
 */
     PFQuery *query = [PFQuery queryWithClassName:@"Paciente"];
         //Obtenemos al usuario logueado.

@@ -57,14 +57,12 @@
             [query whereKey:@"objectId" equalTo:medicamento.objectId];
                 //Consulta sincronica (Se evita error).
             PFObject *med = [query getFirstObject];
-            if(!med){
-                    //
-            }else{
+            if(med){
                 [_medicamentos addObject:med[@"Nombre"]];
             }
         }
     }
-        //Obtenemos las citas de hoy.
+        //Obtenemos los medicamentos de hoy.
     NSString *key = [[self dateFormatter] stringFromDate:[NSDate date]];
     for (int i =0; i < arrayObj.count; i++) {
         fech = [[self dateFormatter] stringFromDate:arrayObj[i]];
@@ -74,26 +72,28 @@
             [objects insertObject:dates atIndex:0];
         }
     }
+        //Metodo para mostrar el boton de los formularios.
     [self appearButton:1];
-    //Parte del calendario del año.
+        //Parte del calendario del año.
     self.calendar = [JTCalendar new];
     self.calendar.calendarAppearance.isWeekMode = YES;
-    // Day style
-    self.calendar.calendarAppearance.dayCircleColorSelected = [UIColor colorWithRed:0.08 green:0.49 blue:0.98 alpha:1];
+        //Day style
+    self.calendar.calendarAppearance.dayCircleColorToday = [UIColor colorWithRed:0.08 green:0.49 blue:0.98 alpha:1];
     self.calendar.calendarAppearance.dayCircleRatio = 1.1;
-    self.calendar.calendarAppearance.dayTextColor =[UIColor colorWithRed:0.08 green:0.45 blue:1 alpha:1];
-    //Datas in View
+    self.calendar.calendarAppearance.dayTextColor = [UIColor colorWithRed:0.08 green:0.45 blue:1 alpha:1];
+    self.calendar.calendarAppearance.dayTextColorSelected = [UIColor whiteColor];
+        //Datas in View
     [self.calendar setContentView:self.content];
-    [self.calendar setDataSource:self];
     [self.calendar setCurrentDate:[NSDate date]];
+    [self.calendar setDataSource:self];
 }
 
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     [self.calendar reloadData]; // Must be call in viewDidAppear
 }
 
--(void)viewDidDisappear:(BOOL)animated{
+- (void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     [acti stopAnimating];
 }
@@ -117,10 +117,7 @@
 - (void)calendarDidDateSelected:(JTCalendar *)calendar date:(NSDate *)date{
     [objects removeAllObjects];
         //Verificamos los eventos.
-    NSString *key = [[self dateFormatter] stringFromDate:date];
-    if ([key isEqual:hoy]) {
-        NSLog(@"%@",date);
-    }
+
 }
 
 #pragma mark table methods
@@ -140,22 +137,27 @@
             celda = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         }
         UILabel *tituloMedicamento = (UILabel *)[celda viewWithTag:10];
-            //tituloMedicamento.text = [_medicamentos objectAtIndex:indexPath.row];
         UILabel *horasMed = (UILabel *)[celda viewWithTag:20];
-        NSString *name = [NSString stringWithFormat:@"%@",_medicamentos[indexPath.row]];
-        tituloMedicamento.text = [name stringByAppendingString:@" ®"];
-        horas = @"";
-        for (int i =0; i < [arrayObj count]; i++) {
-            NSMutableArray *horasArray = arrayObj[i][@"Horas"];
-            for (int j = 0; j < [horasArray count]; j++) {
-                    //NSLog(@"%@", horasArray[j]);
-                horas = [horas stringByAppendingString: horasArray[j]];
-                if ((j + 1) != [horasArray count]) {
-                    horas = [horas stringByAppendingString:@"  -  "];
+        if ([_medicamentos count] > 0) {
+            NSString *name = [NSString stringWithFormat:@"%@",_medicamentos[indexPath.row]];
+            tituloMedicamento.text = [name stringByAppendingString:@" ®"];
+            horas = @"";
+            for (int i =0; i < [arrayObj count]; i++) {
+                NSMutableArray *horasArray = arrayObj[i][@"Horas"];
+                for (int j = 0; j < [horasArray count]; j++) {
+                        //NSLog(@"%@", horasArray[j]);
+                    horas = [horas stringByAppendingString: horasArray[j]];
+                    if ((j + 1) != [horasArray count]) {
+                        horas = [horas stringByAppendingString:@"  -  "];
+                    }
                 }
             }
+            horasMed.text = horas;
+        }else{
+            tituloMedicamento.text = @"No hay medicamentos para hoy!";
+            horasMed.text = @" ";
         }
-        horasMed.text = horas;
+
     }else{
 
         CellIdentifier = @"list";
