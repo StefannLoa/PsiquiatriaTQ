@@ -14,12 +14,15 @@
     IBOutlet UITableView *tableEfects;
 }
 
-@property (strong, nonatomic) IBOutlet UITableView *tableMedics;
-
-@property (strong, nonatomic) IBOutlet JTCalendarContentView *content;
+@property NSMutableArray *medicamentos;
 @property JTCalendar *calendar;
 
-@property NSMutableArray *medicamentos;
+@property (strong, nonatomic) IBOutlet UITableView *tableMedics;
+@property (strong, nonatomic) IBOutlet JTCalendarContentView *content;
+
+
+- (IBAction)segueValue:(id)sender;
+
 
 @end
 

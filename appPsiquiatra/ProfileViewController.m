@@ -28,19 +28,18 @@
     self.image.layer.borderColor = [UIColor colorWithRed:0.04 green:0.45 blue:1 alpha:1].CGColor;
     _datas = @[@"Nombre",@"Apellido",@"Edad",@"Telefono",@"Cedula"];
     _arrayObj = [NSMutableArray array];
+        //Obtenemos al usuario logueado.
+    _user = [PFUser currentUser];
 /*
         Parse - Implementamos la busqueda de los datos del paciente.
  */
     PFQuery *query = [PFQuery queryWithClassName:@"Paciente"];
-        //Obtenemos al usuario logueado.
-    _user = [PFUser currentUser];
     [query whereKey:@"NumeroDocumento" equalTo:_user[@"NumeroDocumento"]];
         //Consulta sincronica (Se evita error).
     PFObject *object = [query getFirstObject];
     if (!object || !(object.isDataAvailable)) {
         NSLog(@"The getFirstObject request failed.");
     } else {
-        NSLog(@"%@",object);
             // The find succeeded.
         for (int i = 0; i < _datas.count; i++) {
             if ([_datas[i] isEqual:@"Cedula"]) {
@@ -73,6 +72,9 @@
         // Parse: Añadimos los datos de la DB.
     UILabel *basicos = (UILabel *)[cell viewWithTag:4];
     basicos.text = [NSString stringWithFormat:@"%@", _arrayObj[indexPath.row]];
+    if ([datos.text isEqualToString:@"Edad"]) {
+        basicos.text = [basicos.text stringByAppendingString:@" Años"];
+    }
 
     return cell;
 }
@@ -83,25 +85,15 @@
     [_activity startAnimating];
     _activity.hidden = NO;
         // Cerramos sesion con Parse.
-
     [PFUser logOutInBackgroundWithBlock:^(NSError *error){
         if (!error) {
-            _activity.hidden = YES;
             [_activity stopAnimating];
                 // Devolvemos la vista.
             [self dismissViewControllerAnimated:YES completion:nil];
         }else{
             NSLog(@"Ha habido un error: %@", error);
         }
-
     }];
-}
-
--(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
-
-    BOOL validar = YES;
-
-    return validar;
 }
 
 @end

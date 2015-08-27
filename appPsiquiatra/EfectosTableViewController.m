@@ -32,7 +32,6 @@
     objects = [NSMutableArray array];
     arrayObj = [NSMutableArray array];
     horas = @"";
-    pac = [self getDataPaciente];
 /*
      Parse - LLamando los datos de la clase efectos.
 */
@@ -46,6 +45,7 @@
         for (int i = 0; i < [queryObj count]; i++) {
             [arrayObj addObject:queryObj[i][@"Sintoma"]];
         }
+        NSLog(@"%@", arrayObj);
     }
 }
 
@@ -111,17 +111,20 @@
     return dateFormatter;
 }
 
+    // METODO - verifica el dato seleccionado para saber si guardarlo o quitarlo.
 -(void)VerifyDate:(UILabel *)nombre add:(BOOL)addElement{
+    pac = [self getDataPaciente];
 /*
     Parse - Buscamos si existe alguna fila con datos de hoy. Si SI, entonces actualizamos. Si NO, entonces creamos.
 */
         //NSString *date = [[self dateFormatter] stringFromDate:[NSDate date]];
     PFQuery *query = [PFQuery queryWithClassName:@"EfectosSecundarios_Pac"];
     [query whereKey:@"Paciente_Id" equalTo:pac];
-    [query orderByAscending:@"createdAt"];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *arrayObjects, NSError *error){
-            //NSLog(@"%@",arrayObjects);
-        if (arrayObjects == nil || [arrayObjects count] == 0) {
+    [query orderByDescending:@"createdAt"];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject *objectEfect, NSError *error){
+            NSLog(@"%@",objectEfect.createdAt);
+            NSLog(@"%@",objectEfect[@"Efectos_Secundarios"]);/*
+        if (objectEfect == nil || [objectEfect count] == 0) {
             PFObject *efectos = [PFObject objectWithClassName:@"EfectosSecundarios_Pac"];
             efectos[@"Efectos_Secundarios"] = @[[NSString stringWithFormat:@"%@",nombre.text]];
             efectos[@"Paciente_Id"] = pac;
@@ -130,17 +133,22 @@
             NSLog(@"Guardado con exito.");
 #endif
         }else{
-            for(int i = 0; i < [arrayObjects count]; i++){
-                PFObject *object = [arrayObjects objectAtIndex:i];
+            for(int i = 0; i < [objectEfect count]; i++){
+                PFObject *object = [objectEfect objectAtIndex:i];
                 NSString *created = [[self dateFormatter] stringFromDate:object.createdAt];
+                NSArray *array = [object objectForKey:@"Efectos_Secundarios"];
+                    //Verificamos la fecha de
                 if([created isEqualToString:hoy]) {
-                    NSArray *array = [object objectForKey:@"Efectos_Secundarios"];
+#ifdef DEBUG
+                    NSLog(@"Ibamos a actualizar. Hay estos datos: %@", array);
+#endif
+                }else{
 #ifdef DEBUG
                     NSLog(@"Ibamos a actualizar. Hay estos datos: %@", array);
 #endif
                 }
             }
-        }
+        }*/
     }];
 }
     //Metodo para agregar otro dato a la lista.

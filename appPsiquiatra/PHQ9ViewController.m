@@ -27,10 +27,10 @@
     //Array de las preguntas y respuestas
     _phq9 = @[@"¿Poco interés o agrado al hacer cosas?",
               @"¿Se ha sentido triste, deprimido(a) o sin esperanzas?",
-              @"¿Ha tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado?",
+              @"¿Ha tenido dificultad para dormir, o ha dormido demasiado?",
               @"¿Se ha sentido cansado(a) o con poca energía?",
               @"¿Sin apetito o ha comido en exceso?",
-              @"¿Se ha sentido mal con usted mismo(a) – o que es un fracaso?",
+              @"¿Se ha sentido mal con usted mismo(a) o que es un fracaso?",
               @"¿Ha tenido dificultad para concentrarse en ciertas actividades, como leer el periódico o ver la televisión?",
               @"¿Se ha movido o hablado tan lento que otras personas podrían haberlo notado? o lo contrario?",
               @"¿Tiene pensamientos de que estaría mejor muerto(a) o de lastimarse de alguna manera?"];

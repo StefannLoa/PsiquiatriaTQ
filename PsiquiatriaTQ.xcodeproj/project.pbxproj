@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		230B41121AA4AA77007EFDD4 /* Quotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 230B41111AA4AA77007EFDD4 /* Quotes.m */; };
 		231F4BD01A76C15F0020F830 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 231F4BCF1A76C15F0020F830 /* Images */; };
+		233C67A01B85390300A90EE6 /* Main_Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233C679F1B85390300A90EE6 /* Main_Pad.storyboard */; };
 		236216C61B449E3A002DAEB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236216C51B449E3A002DAEB9 /* Images.xcassets */; };
 		237E83EB1AAF35ED0072E846 /* Log_InViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237E83EA1AAF35ED0072E846 /* Log_InViewController.m */; };
 		2396D4751A9B6830005270D5 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2396D4741A9B6830005270D5 /* AlertViewController.m */; };
@@ -49,6 +50,7 @@
 		230B41101AA4AA77007EFDD4 /* Quotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotes.h; sourceTree = "<group>"; };
 		230B41111AA4AA77007EFDD4 /* Quotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotes.m; sourceTree = "<group>"; };
 		231F4BCF1A76C15F0020F830 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		233C679F1B85390300A90EE6 /* Main_Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_Pad.storyboard; sourceTree = "<group>"; };
 		236216C51B449E3A002DAEB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		236686461B4583080059DAA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		237E83E91AAF35ED0072E846 /* Log_InViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log_InViewController.h; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				23A83E7F1A72B1C700C612ED /* AppDelegate.h */,
 				23A83E801A72B1C700C612ED /* AppDelegate.m */,
 				23A83E881A72B1C700C612ED /* Main.storyboard */,
+				233C679F1B85390300A90EE6 /* Main_Pad.storyboard */,
 				236216C51B449E3A002DAEB9 /* Images.xcassets */,
 				23F078F11B4C0F720047DD3D /* LaunchScreenPsi.xib */,
 				23F777911A82750B00025228 /* Model */,
@@ -320,6 +323,7 @@
 				23F078F21B4C0F720047DD3D /* LaunchScreenPsi.xib in Resources */,
 				23ED6D341B693BF900AA8A65 /* NeoSansIntel.ttf in Resources */,
 				23ED6D311B693BA900AA8A65 /* NeoSansIntel-Light.ttf in Resources */,
+				233C67A01B85390300A90EE6 /* Main_Pad.storyboard in Resources */,
 				236216C61B449E3A002DAEB9 /* Images.xcassets in Resources */,
 				231F4BD01A76C15F0020F830 /* Images in Resources */,
 				23ED6D331B693BF500AA8A65 /* NeoSansIntel-LightItalic.ttf in Resources */,
